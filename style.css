@@ -21,3 +21,7 @@ opacity: 0.4;
 .commandes {
 display: inline-block;
 }
+
+.action-commandes {
+display: inline-block;
+}
