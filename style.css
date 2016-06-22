@@ -49,12 +49,18 @@ nav a:hover {
 .commandes {
 display: inline-block;
 	 vertical-align: top;
+background-color: #d8d8d8;
+width: 300px;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 .action-commandes {
-width: 30%;
-       background-color: #d8d8d8;
-display: inline-block;
+background-color: black;
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+color: #a60000;
 }
 
 footer {
