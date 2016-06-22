@@ -18,7 +18,7 @@ opacity: 0.5;
 }
 
 #bandheader h1 {
-	font-family: Verdana;
+	font-family: Verdana, serif;
 	font-size: 3em;
 color: #a60000;
        text-align: center;
@@ -28,6 +28,11 @@ padding-top: 10px;
 
 nav {
 	text-align: center;
+position: relative;
+position: fixed;
+top: 0;
+background-color: white;
+width: 100%;
 }
 
 nav li {
@@ -40,7 +45,7 @@ display: inline;
 nav a {
 	text-decoration : none;
 color: #a60000;
-       font-family: Helvetica;
+       font-family: Helvetica, serif;
        font-size: 1.5em;
 }
 
@@ -70,7 +75,7 @@ margin-bottom: 2%;
 p {
 margin-left: 25px;
 margin-right: 25px;
-font-family: Helvetica;
+font-family: Helvetica, serif;
 font-size: 1em;
 }
 
