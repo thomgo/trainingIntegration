@@ -23,7 +23,7 @@ opacity: 0.5;
 color: #a60000;
        text-align: center;
 margin-top: auto;
-margin-bottom: auto;
+padding-top: 10px;
 }
 
 nav {
@@ -40,7 +40,7 @@ display: inline;
 nav a {
 	text-decoration : none;
 color: #a60000;
-       font-family: Verdana;
+       font-family: Helvetica;
        font-size: 1.5em;
 }
 
@@ -70,6 +70,8 @@ margin-bottom: 2%;
 p {
 margin-left: 25px;
 margin-right: 25px;
+font-family: Helvetica;
+font-size: 1em;
 }
 
 .commandes {
@@ -82,6 +84,7 @@ margin-right: 50px;
 }
 
 .action-commandes {
+width: 100%;
 background-color: black;
 text-align: center;
 margin-top: auto;
