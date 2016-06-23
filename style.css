@@ -29,9 +29,10 @@ header {
 
 #imgheader {
 	width: 30%;
-	height: 190px;
+	height: 160px;
 	float: left;
-	margin-left: 5px;	
+	margin-left: 5px;
+	margin-top: 20px;
 }
 
 #imgheader img {
@@ -40,12 +41,36 @@ header {
 }
 
 header h1 {
-	padding-top: 70px;
+	padding-top: 60px;
 	padding-left: 20px;
 	font-family: 'Pacifico';
 	text-align: center;
+	font-size: 4em;
 }
 
+section {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+nav {
+	width: 30%;
+	height: 40%;
+	background-color: blue;
+}
+
+#auteur {
+	width: 30%;
+	height: 40%;
+	background-color: green;
+}
+
+#content {
+	width: 60%;
+	height: 100%;
+	background-color: yellow;
+}
 
 p, table {
 	font-family:'OpenSans-Regular';
