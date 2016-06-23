@@ -46,6 +46,7 @@ header h1 {
 	font-family: 'Pacifico';
 	text-align: center;
 	font-size: 4em;
+	color: #0c4c61;
 }
 
 section {
@@ -56,13 +57,27 @@ section {
 
 nav {
 	width: 30%;
-	height: 40%;
-	background-color: blue;
+	height: 60%;
+	background-color: #f05033;
 	margin-top: 2%;
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 2%;
 	margin-right: 4%;
+	border-radius: 20px;
+}
+
+nav li {
+	list-style-type: none;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Pacifico';
+	font-size: 2em;
+	color: #0c4c61;
 }
 
 #content {
