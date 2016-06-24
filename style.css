@@ -1,3 +1,4 @@
+/*starts the body of the page, margin and padding take off the footers space*/
 body {
 	background-image: url('background2.jpeg');
 	background-repeat: repeat;
@@ -5,6 +6,7 @@ body {
 	padding: 0;
 }	
 
+/*start of the green band with title h1*/
 header {
 	width: 100%;
 	height: 200px;
@@ -21,6 +23,7 @@ h1 {
 	font-size: 4em;
 }
 
+/*starts the styling of the content*/
 p {
 	font-family: 'Yrsa', serif;
 	font-size: 1.5em;
@@ -49,11 +52,13 @@ td {
 	padding-left: 2%;
 }
 
+/*color the commands in the tables*/
 .color {
 	background-color: #3f046f;
 	color: white;
 }
 
+/*start the footer*/
 footer {
 	width: 100%;
 	height: 200px;
@@ -71,6 +76,7 @@ footer a {
 	font-style: normal;
 }
 
+/*social medias icons of the footer*/
 #facebook {
 	width: 100px;
 	height: 100px;
@@ -98,6 +104,7 @@ footer a {
 	height: 100%;
 }
 
+/*allows the design to be responsive on mobile devices*/
 @media screen and (max-width: 850px)
 {
 
