@@ -1,0 +1,17 @@
+
+
+h1 {
+	font-family: 'Bungee Shade', cursive;
+}
+
+
+
+table {
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Yrsa', serif;
+}
+
+th {
+	font-family: 'Space Mono', monospace;
+}
