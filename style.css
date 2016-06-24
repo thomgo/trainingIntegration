@@ -27,3 +27,11 @@ table {
 th {
 	font-family: 'Space Mono', monospace;
 }
+
+.color {
+	background-color: #3f046f;
+}
+
+.explain {
+	background-color: #a468d5;
+}
