@@ -20,18 +20,29 @@ h1 {
 
 table {
 	display: inline-block;
+	margin-left: 0.5%;
 	vertical-align: top;
 	font-family: 'Yrsa', serif;
+	font-size: 1.5em;
 }
 
 th {
 	font-family: 'Space Mono', monospace;
+	width: 500px;
+	background-color: #a7f43d;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+td {
+	background-color: #a468d5;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
 }
 
 .color {
 	background-color: #3f046f;
+	color: white;
 }
 
-.explain {
-	background-color: #a468d5;
-}
