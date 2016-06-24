@@ -55,5 +55,17 @@ footer {
 	background-color: #589800;
 	margin-top: 6%;
 	margin-bottom: 0px;
-	border: 5px solid white;	
+	border: 5px solid white;
+	display: inline-block;	
+}
+
+#facebook {
+	width: 256px;
+	height: 256px;
+
+}
+
+#twitter {
+	width: 256px;
+	height: 208px;
 }
