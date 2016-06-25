@@ -17,7 +17,7 @@ body {
 
 nav {
 	width: 100%;
-	height: 80px;
+	height: 100px;
 	background-color: #ff7a73;
 	padding-top: 15px;
 }
@@ -27,6 +27,7 @@ nav li {
 	height: 50px;
 	display: inline;
 	font-size: 2em;
+	font-family: 'Arima Madurai', cursive;
 	margin-left: 5%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -54,12 +55,16 @@ section {
 section h1 {
 	text-align: center;
 	margin-bottom: 3%;
+	font-family: 'El messiri', sans-serif;
+	font-size: 2em;
+	color:#006363;
 }
 
 table {
 	margin: auto;
-	font-size: 1.25em;
-	border: 3px ridge black;
+	font-size: 1.50em;
+	font-family: 'Roboto', sans-serif;
+	border: 5px solid #ff7a73;
 }
 
 td {
@@ -74,4 +79,7 @@ td {
 	text-align: center;
 	font-size: 1.5em;
 	background-color: #006363;
+	font-family: 'El messiri', sans-serif;
+	color: white;
+	font-style: italic;
 }
