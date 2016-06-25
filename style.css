@@ -83,3 +83,26 @@ td {
 	color: white;
 	font-style: italic;
 }
+
+@media screen and (max-width: 850px)
+{
+
+	nav {
+	height: 30%;
+	}
+
+	nav li {
+	width: 100%;
+	display: block;
+	font-size: 2em;
+	}	
+
+	#pingouin {
+	display: none;
+	}
+	
+	section {
+	width: 100%;
+	}
+
+}
