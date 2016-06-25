@@ -84,7 +84,7 @@ td {
 	font-style: italic;
 }
 
-@media screen and (max-width: 850px)
+@media screen and (max-width: 900px)
 {
 
 	nav {
@@ -103,6 +103,14 @@ td {
 	
 	section {
 	width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) 
+{
+	#pingouin {
+	display: none;
 	}
 
 }
