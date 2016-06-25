@@ -35,4 +35,31 @@ nav li:hover {
 section {
 	width: 70%;
 	margin: auto;
+	margin-top: 4%;
+	background-color: #f8f9f9;
+}
+
+section h1 {
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+table {
+	margin: auto;
+	font-size: 1.25em;
+	border: 3px ridge black;
+}
+
+td {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	padding-left: 3%;
+	background-color: #cef0ec;
+}
+
+.section {
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #006363;
 }
