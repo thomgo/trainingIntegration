@@ -32,7 +32,7 @@ header {
 
 #imgheader {
 	width: 30%;
-	height: 160px;
+	height: 80%;
 	float: left;
 	margin-left: 5px;
 	margin-top: 20px;
@@ -165,4 +165,13 @@ footer a {
 	margin-left: 3%;
 	}
 
+}
+
+@media screen and (min-width: 850px) and (max-width: 1300px)
+{
+
+	#imgheader {
+	margin-top: 40px;
+	height: 60%;
+	}
 }
