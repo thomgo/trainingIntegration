@@ -8,7 +8,7 @@
 
 }
 
-/*Allow the page to be smaller than the screen*/
+/*Allows the page to be smaller than the screen*/
 body {
 	background-color: grey;
 	width: 100%;
@@ -46,7 +46,7 @@ header {
 header h1 {
 	padding-top: 60px;
 	padding-left: 20px;
-	font-family: 'Pacifico';
+	font-family: 'Pacifico', cursive;
 	text-align: center;
 	font-size: 4em;
 	color: #0c4c61;
@@ -78,7 +78,7 @@ nav li {
 
 nav a {
 	text-decoration: none;
-	font-family: 'Pacifico';
+	font-family: 'Pacifico', cursive;
 	font-size: 2em;
 	color: #0c4c61;
 }
@@ -93,7 +93,7 @@ nav a {
 }
 
 p, table {
-	font-family:'OpenSans-Regular';
+	font-family:'OpenSans-Regular', serif;
 }
 
 td, th {
@@ -105,7 +105,7 @@ td, th {
 
 th {
 	font-size: 2em;
-	font-family: 'Pacifico';
+	font-family: 'Pacifico', cursive;
 	color: #f05033;
 	background-color: #0c4c61;
 }
@@ -117,7 +117,7 @@ footer {
 	background-color: #f05033;
 	color: #0c4c61;
 	text-align: center;
-	font-family: 'Pacifico';
+	font-family: 'Pacifico', cursive;
 	font-size: 2em;
 	padding-top: 22px;
 	font-style: italic;
@@ -127,7 +127,7 @@ footer a {
 	text-decoration: none;
 }
 
-/*allow the design to be responsive on mobile and medium devices*/
+/*allows the design to be responsive on mobile and medium devices*/
 @media screen and (max-width: 850px)
 {
 
