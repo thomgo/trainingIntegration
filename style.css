@@ -63,15 +63,17 @@ footer {
 	background-color: #ff7b40;
 	background-image: linear-gradient(#ff4f00, #ff7b40);
 	border-top: 5px solid #a63400;
-
+	text-align: center;
+	padding: 2% 0;
 }
 
 #footerimg {
-	width: 30%;
-	border: 2px solid black;
-	border-radius: 100;
+	width: 20%;
+	border: 1px solid black;
+	margin: auto;
 }
 
-#footerimg img {
-	width: 100%;
+#footerimg  img {
+	max-width: 100%;
+	padding: 0;
 }
