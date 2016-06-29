@@ -12,7 +12,7 @@ header {
 	width: 100%;
 	background-color: #ff7b40;
 	background-image: linear-gradient(#ff7b40, #ff4f00);
-	border-bottom: 5px solid #a63400
+	border-bottom: 5px solid #a63400;
 }
 
 #logo {
@@ -56,4 +56,22 @@ tbody tr {
 
 td {
 	padding: 2% 1%;
+}
+
+footer {
+	width: 100%;
+	background-color: #ff7b40;
+	background-image: linear-gradient(#ff4f00, #ff7b40);
+	border-top: 5px solid #a63400;
+
+}
+
+#footerimg {
+	width: 30%;
+	border: 2px solid black;
+	border-radius: 100;
+}
+
+#footerimg img {
+	width: 100%;
 }
