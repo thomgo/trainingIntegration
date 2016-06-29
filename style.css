@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	font-family: 'Play', sans-serif;
+	color: #1a1a1a;
 }
 
 header {
@@ -29,6 +30,29 @@ h1 {
 	text-align: center;
 	font-size: 1.5em;
 	text-shadow: 3px 3px 3px white;
-	margin: 2% 2%;
+	margin: 2%;
 }
 
+p {
+	text-align: center;
+	margin: 4%;
+}
+
+table {
+	margin: 7% 0;
+}
+thead {
+	width: 100%;
+	background-color: #2b7930;
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	color: white;
+}
+
+tbody tr {
+	background-color: #8cd290;
+}
+
+td {
+	padding: 2% 1%;
+}
