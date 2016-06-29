@@ -10,6 +10,7 @@ body {
 
 header {
 	width: 100%;
+	height: 100%;
 	background-color: #ff7b40;
 	background-image: linear-gradient(#ff7b40, #ff4f00);
 	border-bottom: 5px solid #a63400;
@@ -84,22 +85,19 @@ footer span {
 
 @media screen and (min-width: 650px) {
 
+	#logo, h1 {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
 	#logo {
 		width: 15%;
-		display: inline-block;
-		margin-left: 2%;
-		margin-right: 2%;
-		clear: both;
+		margin: 2%;
 	}
 
 	h1 {
 		font-size: 2em;
-		float: right;
-		margin-top: 10%;
-	}
-
-	p {
-	clear: both;
+		text-align: center;
 	}
 
 	footer span {
@@ -129,6 +127,44 @@ footer span {
 		margin: 3% 4% 3% 4%;
 		display: inline-block;
 		vertical-align: top;
+	}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+	body {
+		background-color: #1a1a1a;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	#logo {
+		width: 10%;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	section {
+		width: 80%;
+		margin: auto;
+		padding-top: 3%;
+		background-color: white;
+	}
+
+
+	footer span, #footerimg {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	#footerimg {
+	width: 10%;
+	margin: 2%;
 	}
 
 }
