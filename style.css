@@ -67,10 +67,14 @@ footer {
 	padding: 2% 0;
 }
 
+footer span {
+	padding: 0 2%;
+}
+
 #footerimg {
-	width: 20%;
+	width: 30%;
 	border: 1px solid black;
-	margin: auto;
+	margin: 2% 35% 2% 35%;
 }
 
 #footerimg  img {
