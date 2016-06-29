@@ -81,3 +81,54 @@ footer span {
 	max-width: 100%;
 	padding: 0;
 }
+
+@media screen and (min-width: 650px) {
+
+	#logo {
+		width: 15%;
+		display: inline-block;
+		margin-left: 2%;
+		margin-right: 2%;
+		clear: both;
+	}
+
+	h1 {
+		font-size: 2em;
+		float: right;
+		margin-top: 10%;
+	}
+
+	p {
+	clear: both;
+	}
+
+	footer span {
+	font-size: 1.5em;
+	}
+
+	#footerimg {
+	width: 20%;
+	margin: 2% 40% 2% 40%;
+	}
+
+
+}
+
+@media screen and (min-width: 980px) {
+
+	h1 {
+	font-size: 2.5em;
+	}
+
+	p {
+		font-size: 1.25em;
+	}
+
+	table {
+		width: 40%;
+		margin: 3% 4% 3% 4%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+}
