@@ -68,6 +68,10 @@ footer {
 	padding: 2% 0;
 }
 
+footer a {
+	text-decoration: none;
+}
+
 footer span {
 	padding: 0 2%;
 }
@@ -124,9 +128,13 @@ footer span {
 
 	table {
 		width: 40%;
-		margin: 3% 4% 3% 4%;
+		margin: 3% 4.5% 3% 4.5%;
 		display: inline-block;
 		vertical-align: top;
+	}
+
+	td {
+		width: 50%;
 	}
 
 }
@@ -156,6 +164,10 @@ footer span {
 		background-color: white;
 	}
 
+	footer {
+		padding: 0;
+	}
+
 
 	footer span, #footerimg {
 		display: inline-block;
@@ -164,7 +176,7 @@ footer span {
 
 	#footerimg {
 	width: 10%;
-	margin: 2%;
+	margin: 1% 2%;
 	}
 
 }
