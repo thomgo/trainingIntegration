@@ -1,0 +1,17 @@
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: white;
+}
+
+
