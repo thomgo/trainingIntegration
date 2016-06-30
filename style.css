@@ -5,6 +5,7 @@ ul {
 ul li {
 	display: inline-block;
 	vertical-align: middle;
+	font-family: Arial, sans-serif;
 }
 
 a {
@@ -63,39 +64,57 @@ nav a:hover {
 }
 
 section {
-	width: 33.33%;
+	width: 40%;
 	height: 40%;
 	clear: both;
-	margin: 10% 33.33%;
+	margin: 10% 30%;
 }
 
 #logo {
-	padding: 5% 25% 3% 25%;
+	padding: 5% 23% 3% 27%;
 }
 
 form input {
 	width: 100%;
-	height: 2em;
+	height: 2.5em;
+	border: 1px solid #f2f2f2;
+	border-radius: 0px;
 }
 
+form input:hover {
+	border-color: #d9d9d9;
+}
+
+form input:focus {
+	border-color: #4285fa;;
+}
+
+
 #buttons {
-	text-align: center
+	text-align: center;
+	padding-right: 7%;
 }
 
 #buttons li {
-	width: 33%;
-	height: 30px;
+	width: 30%;
+	height: 25px;
 	background-color: #f2f2f2;
 	margin: 3% 1%;
 	padding-top: 2%;
 	text-align: center;
-}
-
-#buttons a {
 	color: #767676;
 	font-weight: bold;
 	font-size: 0.80em;
+
 }
+
+#buttons li:hover {
+	border: 1px solid #d9d9d9;
+	color: black;
+}
+
+#buttons a {
+	}
 
 footer {
 	width: 100%;
@@ -107,6 +126,10 @@ footer {
 footer a {
 	color: #666;
 	font-size: 0.8em;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
 
 footer li {
