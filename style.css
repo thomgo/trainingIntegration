@@ -101,5 +101,27 @@ footer {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	background-color: grey;
+	background-color: #f2f2f2;
+}
+
+footer a {
+	color: #666;
+	font-size: 0.8em;
+}
+
+footer li {
+	margin: 0 2%;
+}
+
+.divers {
+	display: inline-block;
+	width: 30%;
+}
+
+#gauche {
+	float: left
+}
+
+#droit {
+	float: right;
 }
