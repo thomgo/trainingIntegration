@@ -18,7 +18,7 @@ header {
 
 #logo {
 	width: 30%;
-	margin: 2% 35% 2% 35%;
+	margin: 2% 35%;
 }
 
 #logo img {
@@ -180,3 +180,34 @@ footer span {
 	}
 
 }
+
+@media screen and (min-width: 1800px){
+
+	#logo {
+		width: 7%;
+		margin: 1% 2%;
+	}
+
+	h1 {
+		font-size: 3.5em;
+	}
+
+	p{
+		margin: 1%;
+		}
+
+	table {
+		width: 25%;
+		margin: 2% 3%;
+	}
+
+	footer span {
+		font-size: 2em;
+	}
+
+	#footerimg {
+		width: 7%;
+	}
+
+}
+
