@@ -14,6 +14,7 @@ a {
 
 body {
 	background-color: white;
+	margin: 0;
 }
 
 header {
@@ -22,17 +23,18 @@ header {
 }
 
 nav {
+	width: 300px;
 	float: right;
 }
 
-nav img {
-	height: 20%;
-	width: 80%;
+nav li {
+	padding: 0 1.5%;
 }
 
 nav a {
 	color: black;
 	opacity: 0.7;
+	font-size: 0.80em;
 }
 
 nav a:hover {
@@ -40,14 +42,27 @@ nav a:hover {
 }
 
 #carre {
-	opacity: 0.5;
-	height: 50%;
-	width: 50%;
+	height: 24px;
+	width: 24px;
+	opacity: 0.6;
+	padding-top: 0.5%;
+}
+
+#carre:hover {
+	opacity: 1;
 }
 
 #bell {
-	opacity: 0.5
+	height: 24px;
+	width: 24px;
+	opacity: 0.6
 }
+
+#bell:hover {
+	opacity: 1;
+}
+
 section {
+	background-color: orange;
 	clear: both;
 }
