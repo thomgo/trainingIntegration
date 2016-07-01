@@ -93,3 +93,38 @@ nav .connection:hover {
 
 *******************************/
 
+.contain {
+	width: 70%;
+	margin: auto;
+}
+
+.contain section, aside {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 7%;
+}
+
+.contain section {
+	width: 78%;
+}
+
+.left {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 4%;
+}
+
+.map {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.map img {
+	width: 100%;
+}
+
+.contain aside {
+	width: 18%;
+}
