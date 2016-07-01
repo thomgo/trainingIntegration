@@ -13,9 +13,19 @@ body {
 	background-color: white;
 }
 
-p {
+p, .listnav, .connection, .depot, a, .recherche, .actualite  {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
+}
+
+p {
+	text-align: center;
+	font-size: 0.95em;
+}
+
+a {
+	text-decoration: none;
+	color: #3d6abe;
 }
 
 /*******************************
@@ -58,14 +68,11 @@ nav ul {
 }
 
 nav .listnav {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
 	font-size: 1em;
 	margin: 0 1%;
 }
 
 .listnav a {
-	text-decoration: none;
 	color: white;
 }
 
@@ -74,8 +81,6 @@ nav .listnav {
 }
 
 nav .connection {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
 	font-size: 0.85em;
 	padding: 0.5%;
 	border: 1px solid white;
@@ -115,6 +120,53 @@ nav .connection:hover {
 	margin-right: 4%;
 }
 
+.left p {
+	margin-top: 0;
+	text-align: left;
+}
+
+.depot, .recherche, .actualite {
+	width: 90%;
+	height: 40px;
+	font-size: 0.90em;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.depot {
+	background-color: #4183d7;
+	color: white;
+	margin-top: 10%;
+	border-radius: 5px;
+}
+
+.depot:hover {
+	opacity: 0.9;
+}
+
+.recherche {
+	color: #4183d7;
+	border: 1px solid #4183d7;
+	border-radius: 5px;
+	margin-top: 5%;
+}
+
+.recherche:hover {
+	background-color: #d0e6e9;
+}
+
+.actualite {
+	color: white;
+	background-color: #666;
+	border: 1px solid #666;
+	margin-top: 5%;
+}
+
+.actualite img {
+	width: 100%;
+	margin-top: 4%;
+}
+
 .map {
 	width: 45%;
 	display: inline-block;
@@ -127,4 +179,18 @@ nav .connection:hover {
 
 .contain aside {
 	width: 18%;
+}
+
+aside ul {
+	list-style: none;
+	text-align: right;
+	margin-top: 0;
+}
+
+aside ul a {
+	font-size: .95em;
+}
+
+aside ul a:hover {
+	color: #f56b2a;
 }
