@@ -98,10 +98,14 @@ nav .connection:hover {
 
 *******************************/
 
+/**Main contain div for a shorter page **/
+
 .contain {
 	width: 70%;
 	margin: auto;
 }
+
+/**Allows a two columns design **/
 
 .contain section, aside {
 	display: inline-block;
@@ -112,6 +116,8 @@ nav .connection:hover {
 .contain section {
 	width: 78%;
 }
+
+/**Layout of the left part **/
 
 .left {
 	width: 45%;
@@ -124,6 +130,8 @@ nav .connection:hover {
 	margin-top: 0;
 	text-align: left;
 }
+
+/**Left buttons **/
 
 .depot, .recherche, .actualite {
 	width: 90%;
@@ -167,6 +175,8 @@ nav .connection:hover {
 	margin-top: 4%;
 }
 
+/**Main map **/
+
 .map {
 	width: 45%;
 	display: inline-block;
@@ -176,6 +186,8 @@ nav .connection:hover {
 .map img {
 	width: 100%;
 }
+
+/**Aside div with the regions **/
 
 .contain aside {
 	width: 18%;
