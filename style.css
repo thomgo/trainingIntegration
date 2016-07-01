@@ -1,3 +1,9 @@
+/*******************************
+
+	-------General -------
+
+*******************************/
+
 * {
 	box-sizing: border-box;
 }
@@ -12,6 +18,14 @@ p {
 	font-weight: 600;
 }
 
+/*******************************
+
+	-------Header and navigation -------
+
+*******************************/
+
+/**Header **/
+
 header {
 	position: fixed;
 	top: 0px;
@@ -19,6 +33,8 @@ header {
 	height: 50px;
 	background-color: #f56b2a;
 }
+
+/**Navigation **/
 
 nav {
 	width: 70%;
@@ -70,3 +86,10 @@ nav .connection:hover {
 	background-color: white;
 	color: #f56b2a;
 }
+
+/*******************************
+
+	-------Main content -------
+
+*******************************/
+
