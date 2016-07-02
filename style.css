@@ -13,7 +13,7 @@ body {
 	background-color: #fafafa;
 }
 
-p, .listnav, .connection, .depot, a, .recherche, .actualite  {
+p, h2, .listnav, .connection, .depot, a, .recherche, .actualite  {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 }
@@ -209,4 +209,51 @@ aside ul a {
 
 aside ul a:hover {
 	color: #f56b2a;
+}
+
+/*******************************
+
+	-------Footer -------
+
+*******************************/
+
+footer {
+	background-color: #474747; 
+}
+
+footer section:nth-child(1){
+	background-color: #f2f2f2;
+}
+
+footer section div:nth-child(1) {
+	width: 70%;
+	margin: auto;
+}
+
+footer section div:nth-child(1) div {
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+}
+
+footer h2, footer ul {
+	font-size: .75em;
+	color: #3d6ade;
+}
+
+footer section:nth-child(2) h2, footer section:nth-child(2) ul {
+	color: white;
+}
+
+h2 {
+	width: 95%;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+footer ul {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	list-style-type: none;
+	padding-left: 0%;
 }
