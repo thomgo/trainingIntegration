@@ -241,7 +241,7 @@ footer h2, footer ul {
 	color: #3d6ade;
 }
 
-footer section:nth-child(2) h2, footer section:nth-child(2) ul {
+footer section:nth-child(2) h2, footer section:nth-child(2) ul, footer p {
 	color: white;
 }
 
@@ -256,4 +256,35 @@ footer ul {
 	font-weight: 400;
 	list-style-type: none;
 	padding-left: 0%;
+}
+
+footer div:nth-child(3){
+	width: 70%;
+	margin: auto;
+}
+
+footer div:nth-child(3) div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer div:nth-child(3) div:nth-child(2){
+	width: 25%;
+	margin-left: 60%;
+}
+
+footer div img {
+	height: 12%;
+	width: 12%;
+}
+
+footer div img:hover {
+	height: 14%;
+	width: 14%;
+}
+
+
+footer div img, footer div p {
+	display: inline-block;
+	vertical-align: middle;
 }
