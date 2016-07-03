@@ -47,50 +47,42 @@ header {
 /**Navigation **/
 
 nav {
-	width: 70%;
+	width: 90%;
 	margin: auto;
 }
 
-nav  ul,.listnav, h1, .connection {
+nav  ul,.listnav, .connection {
+	display: none;
+}
+
+nav #menu-mobile {
+	width: 70px;
+	height: 35px;
+	background-color: white;
+	color: #f56b2a;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	display: inline-block;
-	vertical-align: middle;
-	color: white;
+	vertical-align: top;
+	margin: 5px 5px 0 0;
+	padding-top: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+nav #menu-mobile:hover {
+	color: #3d6abe;
+	background-color: #bbc6d7;
 }
 
 nav h1 {
 	font-family: 'Baloo Bhai', cursive ;
 	font-size: 2em;
+	color:white;
 	margin: 0 .5%;
+	display: inline-block;
 }
 
-nav ul {
-	width: 70%;
-}
-
-nav .listnav {
-	font-size: 1em;
-	margin: 0 1%;
-}
-
-.listnav a {
-	color: white;
-}
-
-.listnav a:hover {
-	text-decoration: underline;
-}
-
-nav .connection {
-	font-size: 0.85em;
-	padding: 0.5%;
-	border: 1px solid white;
-	border-radius: 5px;
-}
-
-nav .connection:hover {
-	background-color: white;
-	color: #f56b2a;
-}
 
 /*******************************
 
@@ -101,40 +93,31 @@ nav .connection:hover {
 /**Main contain div for a shorter page **/
 
 .contain {
-	width: 70%;
-	margin: auto;
+	width: 100%;
 }
+
 
 /**Allows a two columns design **/
 
-.contain section, aside {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 7%;
-}
-
 .contain section {
-	width: 78%;
+	width: 100%;
 }
 
 /**Layout of the left part **/
 
 .left {
-	width: 45%;
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 4%;
+	width: 100%;
 }
 
 .left p {
-	margin-top: 0;
-	text-align: left;
+	margin-top: 60px;
+	text-align: center;
 }
 
 /**Left buttons **/
 
 .depot, .recherche, .actualite {
-	width: 90%;
+	width: 99%;
 	height: 40px;
 	font-size: 0.90em;
 	text-align: center;
@@ -164,52 +147,24 @@ nav .connection:hover {
 }
 
 .actualite {
-	color: white;
-	background-color: #666;
-	border: 1px solid #666;
-	margin-top: 5%;
-}
-
-.actualite img {
-	width: 100%;
-	margin-top: 4%;
+	display: none;
 }
 
 /**Main map **/
 
 .map {
 	width: 45%;
-	display: inline-block;
-	vertical-align: top;
 }
 
 .map img {
-	margin: 15% 0 0 15%;
-}
-
-area:hover {
-	background-color: #f56b2a;
+	margin: auto;
 }
 
 /**Aside div with the regions **/
 
-.contain aside {
-	width: 18%;
-}
-
-aside ul {
-	list-style: none;
-	text-align: right;
-	margin-top: 0;
-}
-
-aside ul a {
-	font-size: .95em;
-}
-
-aside ul a:hover {
-	color: #f56b2a;
-}
+	.contain aside {
+		display: none;
+	}
 
 /*******************************
 
@@ -221,46 +176,12 @@ footer {
 	background-color: #474747; 
 }
 
-footer section:nth-child(1){
-	background-color: #f2f2f2;
-}
-
-footer section div:nth-child(1) {
-	width: 70%;
-	margin: auto;
-}
-
-footer section div:nth-child(1) div {
-	display: inline-block;
-	vertical-align: top;
-	width: 24%;
-}
-
-footer h2, footer ul {
-	font-size: .75em;
-	color: #3d6ade;
-}
-
-footer section:nth-child(2) h2, footer section:nth-child(2) ul, footer p {
-	color: white;
-}
-
-h2 {
-	width: 95%;
-	border-bottom: 1px solid #d1d1d1;
-}
-
-footer ul {
-	height: 100%;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	list-style-type: none;
-	padding-left: 0%;
+footer section {
+	display: none;
 }
 
 footer div:nth-child(3){
-	width: 70%;
-	margin: auto;
+	width: 100%;
 }
 
 footer div:nth-child(3) div {
@@ -269,22 +190,307 @@ footer div:nth-child(3) div {
 }
 
 footer div:nth-child(3) div:nth-child(2){
-	width: 25%;
-	margin-left: 60%;
+	width: 50%;
 }
 
+footer section:nth-child(2) h2, footer section:nth-child(2) ul, footer p {
+	color: white;
+}
+
+
 footer div img {
-	height: 12%;
-	width: 12%;
+	height: 20%;
+	width: 20%;
+	margin: 5% 0 0 10%;
 }
 
 footer div img:hover {
-	height: 14%;
-	width: 14%;
+	height: 25%;
+	width: 25%;
 }
 
 
 footer div img, footer div p {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+footer div:nth-child(3) div:nth-child(2) p {
+	display: none;
+}
+
+@media screen and (min-width: 500px) {
+
+	.depot {
+		margin-top: 5%;
+	}
+	
+	.map {
+		margin: auto;
+	}
+
+	footer div img {
+		height: 15%;
+		width: 15%;
+	}
+
+	footer div img:hover {
+		height: 17%;
+		width: 17%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+	
+	.contain section, aside {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 7%;
+	}
+
+	.contain section {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	.left {
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+		margin: 2% 0 2% 4%;
+	}
+
+	.left p {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.depot, .recherche, .actualite {
+		width: 90%;
+	}
+
+	.actualite {
+		display: block;
+		color: white;
+		background-color: #666;
+		border: 1px solid #666;
+		margin-top: 5%;
+	}
+
+	.actualite img {
+		width: 100%;
+		margin-top: 4%;
+	}
+
+	.map {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.map img {
+		margin: 15% 0 0 15%;
+	}
+
+	footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+	footer section {
+		display: block;
+	}
+
+	footer section:nth-child(1){
+		background-color: #f2f2f2;
+	}
+
+	footer section div:nth-child(1) {
+		width: 100%;
+		margin: auto;
+	}
+
+	footer section div:nth-child(1) div {
+		display: inline-block;
+		vertical-align: top;
+		width: 24%;
+	}
+
+	footer h2, footer ul {
+		font-size: .75em;
+		color: #3d6ade;
+		margin-left: 2%;
+	}
+
+	h2 {
+		width: 95%;
+		border-bottom: 1px solid #d1d1d1;
+	}
+
+	footer ul {
+		height: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		list-style-type: none;
+		padding-left: 0%;
+	}
+
+}
+
+@media screen and (min-width: 980px) {
+
+	.contain section {
+		margin-bottom: 10%;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	nav #menu-mobile {
+		display: none;
+	}
+
+	nav  ul,.listnav, h1, .connection {
+		display: inline-block;
+		vertical-align: middle;
+		color: white;
+	}
+	nav ul {
+		width: 70%;
+	}
+
+	nav .listnav {
+		font-size: 1em;
+		margin: 0 1%;
+	}
+
+	.listnav a {
+		color: white;
+	}
+
+	.listnav a:hover {
+		text-decoration: underline;
+	}
+
+	nav .connection {
+		font-size: 0.85em;
+		padding: 0.5%;
+		border: 1px solid white;
+		border-radius: 5px;
+	}
+
+	nav .connection:hover {
+		background-color: white;
+		color: #f56b2a;
+	}
+	
+	footer div img {
+		height: 12%;
+		width: 12%;
+	}
+
+	footer div img:hover {
+		height: 14%;
+		width: 14%;
+	}
+
+}
+
+@media screen and (min-width:1280px) {
+	
+	.contain {
+		width: 80%;
+		margin: auto;
+	}
+
+	.contain section {
+		width: 78%;
+	}
+
+	nav {
+		width: 80%;
+	}
+
+	.left: {
+		margin: 0 4% 0 0; 
+	}
+
+	
+	.contain aside {
+		display: inline-block;
+		width: 18%;
+	}
+
+	aside ul {
+		list-style: none;
+		text-align: right;
+		margin-top: 0;
+	}
+
+	aside ul a {
+		font-size: .95em;
+	}
+
+	aside ul a:hover {
+		color: #f56b2a;
+	}
+
+	footer {
+		position: relative;
+	}
+
+	
+	footer section div:nth-child(1) {
+		width: 80%;
+	}
+
+	footer section div:nth-child(1) div {
+		width: 24%;
+	}
+
+	footer h2, footer ul {
+		margin-left: 0;
+	}
+
+	
+	footer div:nth-child(3){
+		width: 80%;
+		margin: auto;
+	}
+	
+	footer div:nth-child(3) div:nth-child(2){
+		width: 25%;
+		margin-left: 60%;
+	}
+
+	footer div img {
+		margin: auto;
+	}
+	
+	footer div:nth-child(3) div:nth-child(2) p {
+		display: inline;
+	}
+
+}
+
+@media screen and (min-width:1500px) {
+
+	.contain {
+		width: 70%;
+	}
+
+	nav {
+		width: 70%;
+	}
+
+	footer section div:nth-child(1) {
+		width: 70%;
+	}
+
+	footer div:nth-child(3){
+		width: 70%;
+	}
+
 }
