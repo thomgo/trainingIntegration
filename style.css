@@ -90,20 +90,20 @@ nav h1 {
 
 *******************************/
 
-/**Main contain div for a shorter page **/
+/**Main contain div fully displayed **/
 
 .contain {
 	width: 100%;
 }
 
 
-/**Allows a two columns design **/
+/**Allows a one column layout on mobile devices **/
 
 .contain section {
 	width: 100%;
 }
 
-/**Layout of the left part **/
+/**Layout of the left part, on the top on little mobile devices **/
 
 .left {
 	width: 100%;
@@ -162,15 +162,17 @@ nav h1 {
 
 /**Aside div with the regions **/
 
-	.contain aside {
-		display: none;
-	}
+.contain aside {
+	display: none;
+}
 
 /*******************************
 
 	-------Footer -------
 
 *******************************/
+
+/**Minimized footer on mobile devices **/
 
 footer {
 	background-color: #474747; 
@@ -180,7 +182,9 @@ footer section {
 	display: none;
 }
 
-footer div:nth-child(3){
+/**Credits and social icons display **/
+
+footer div:nth-child(3) {
 	width: 100%;
 }
 
@@ -219,6 +223,13 @@ footer div:nth-child(3) div:nth-child(2) p {
 	display: none;
 }
 
+/*******************************
+
+	-------Responsive design Smartphone -------
+
+*******************************/
+
+
 @media screen and (min-width: 500px) {
 
 	.depot {
@@ -240,9 +251,16 @@ footer div:nth-child(3) div:nth-child(2) p {
 	}
 }
 
+/*******************************
+
+	-------Responsive design Tablets -------
+
+*******************************/
+
 @media screen and (min-width: 800px) {
 
-	
+/**Column design with the maps on the right side and prepare the aside to go on the right later **/
+
 	.contain section, aside {
 		display: inline-block;
 		vertical-align: top;
@@ -292,6 +310,8 @@ footer div:nth-child(3) div:nth-child(2) p {
 		margin: 15% 0 0 15%;
 	}
 
+/**Footer with the lists **/
+
 	footer{
 		position: absolute;
 		bottom: 0;
@@ -338,11 +358,19 @@ footer div:nth-child(3) div:nth-child(2) p {
 
 }
 
+/*******************************
+
+	-------Responsive design Tablets and notebook -------
+
+*******************************/
+
 @media screen and (min-width: 980px) {
 
 	.contain section {
 		margin-bottom: 10%;
 	}
+
+/**Display of the full navigation bar **/
 
 	nav {
 		width: 100%;
@@ -398,8 +426,16 @@ footer div:nth-child(3) div:nth-child(2) p {
 
 }
 
+/*******************************
+
+	-------Responsive design Notebooks/laptops -------
+
+*******************************/
+
 @media screen and (min-width:1280px) {
 	
+/**Column layout on a 80% base **/
+
 	.contain {
 		width: 80%;
 		margin: auto;
@@ -417,7 +453,8 @@ footer div:nth-child(3) div:nth-child(2) p {
 		margin: 0 4% 0 0; 
 	}
 
-	
+/**Allows the display of the left list **/
+
 	.contain aside {
 		display: inline-block;
 		width: 18%;
@@ -436,6 +473,8 @@ footer div:nth-child(3) div:nth-child(2) p {
 	aside ul a:hover {
 		color: #f56b2a;
 	}
+
+/**Footer layout on 80% **/ 
 
 	footer {
 		position: relative;
@@ -474,6 +513,12 @@ footer div:nth-child(3) div:nth-child(2) p {
 	}
 
 }
+
+/*******************************
+
+	-------Responsive design Desktop -------
+
+*******************************/
 
 @media screen and (min-width:1500px) {
 
