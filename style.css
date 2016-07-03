@@ -42,8 +42,8 @@ header {
 /*Navigation bar and display in the header */
 
 nav {
-	width: 300px;
-	float: right;
+	width: 90%;
+	margin: auto;
 }
 
 nav li {
@@ -92,16 +92,15 @@ nav a:hover {
 /*Section with content global settings */
 
 section {
-	width: 40%;
+	width: 90%;
 	height: 40%;
-	clear: both;
-	margin: 10% 30%;
+	margin: 10% 5%;
 }
 
 /*Logo display */
 
 #logo {
-	padding: 5% 23% 3% 27%;
+	margin: auto;
 }
 
 /*Search bar display and effects */
@@ -129,7 +128,7 @@ form input:focus {
 }
 
 #buttons li {
-	width: 30%;
+	width: 60%;
 	height: 25px;
 	background-color: #f2f2f2;
 	margin: 3% 1%;
@@ -181,12 +180,81 @@ footer li {
 
 .divers {
 	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5%;
 }
 
-#gauche {
-	float: left
+/**************************************
+
+	-----Responsive design -----
+
+*************************************/
+
+/*Responsive design on tablets */
+
+@media screen and (min-width: 768px) {
+
+	nav {
+		width: 300px;
+		float: right;
+	}
+	
+	section {
+		width: 80%;
+		height: 40%;
+		clear: both;
+		margin: 10%;
+	}
+	
+	#logo {
+		padding: 5% 23% 3% 27%;
+	}
+
+	#buttons li {
+		width: 30%;
+	}
+
+	.divers {
+		width: 45%;
+		margin-left: 0;
+	}
+
+	#gauche {
+		float: left
+	}
+
+	#droit {
+		float: right;
+	}
+
 }
 
-#droit {
-	float: right;
+/*Responsive design on tablets on notebooks */
+
+@media screen and (min-width: 980px) {
+	
+	#logo {
+		padding: 5% 18% 3% 32%;
+	}
+}
+
+/*Responsive design on laptops and desktop pc*/
+
+@media screen and (min-width: 1280px) {
+
+	section {
+		width: 40%;
+		margin: 10% 30%;
+	}
+	
+	#logo {
+		padding: 5% 23% 3% 27%;
+	}
+
+	.divers {
+		width: 30%;
+	}
+
+
 }
