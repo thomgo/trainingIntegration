@@ -281,7 +281,7 @@ footer div:nth-child(3) div:nth-child(2) p {
 
 	#left p {
 		margin-top: 0;
-		text-align:#left;
+		text-align: left;
 	}
 
 	#depot, #recherche, #actualite {
@@ -449,7 +449,7 @@ footer div:nth-child(3) div:nth-child(2) p {
 		width: 80%;
 	}
 
-	#left: {
+	#left {
 		margin: 0 4% 0 0; 
 	}
 
