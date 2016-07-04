@@ -16,6 +16,12 @@ body {
 	color: #1a1a1a;
 }
 
+h2, thead {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+
+
 /****************************************
 
 	-----Header-----
@@ -63,6 +69,10 @@ h1 {
 
 /*Text content */
 
+h2 {
+	font-size: 2em;
+}
+
 p {
 	text-align: center;
 	margin: 4%;
@@ -76,7 +86,6 @@ table {
 }
 thead {
 	background-color: #2b7930;
-	font-family: 'PT Sans', sans-serif;
 	font-size: 1.5em;
 	font-style: italic;
 	color: white;
@@ -245,6 +254,10 @@ footer span {
 
 	h1 {
 		font-size: 3.5em;
+	}
+
+	h2 {
+		font-size: 3em;
 	}
 
 	p{
