@@ -13,7 +13,7 @@ body {
 	background-color: #fafafa;
 }
 
-p, h2, .listnav, .connection, .depot, a, .recherche, .actualite  {
+p, h2, .listnav, #connection, #depot, a, #recherche, #actualite  {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 }
@@ -51,7 +51,7 @@ nav {
 	margin: auto;
 }
 
-nav  ul,.listnav, .connection {
+nav  ul,.listnav, #connection {
 	display: none;
 }
 
@@ -90,33 +90,33 @@ nav h1 {
 
 *******************************/
 
-/**Main contain div fully displayed **/
+/**Main#contain div fully displayed **/
 
-.contain {
+#contain {
 	width: 100%;
 }
 
 
 /**Allows a one column layout on mobile devices **/
 
-.contain section {
+#contain section {
 	width: 100%;
 }
 
-/**Layout of the left part, on the top on little mobile devices **/
+/**Layout of the#left part, on the top on little mobile devices **/
 
-.left {
+#left {
 	width: 100%;
 }
 
-.left p {
+#left p {
 	margin-top: 60px;
 	text-align: center;
 }
 
 /**Left buttons **/
 
-.depot, .recherche, .actualite {
+#depot, #recherche, #actualite {
 	width: 99%;
 	height: 40px;
 	font-size: 0.90em;
@@ -124,45 +124,45 @@ nav h1 {
 	padding-top: 2%;
 }
 
-.depot {
+#depot {
 	background-color: #4183d7;
 	color: white;
 	margin-top: 10%;
 	border-radius: 5px;
 }
 
-.depot:hover {
+#depot:hover {
 	opacity: 0.9;
 }
 
-.recherche {
+#recherche {
 	color: #4183d7;
 	border: 1px solid #4183d7;
 	border-radius: 5px;
 	margin-top: 5%;
 }
 
-.recherche:hover {
+#recherche:hover {
 	background-color: #d0e6e9;
 }
 
-.actualite {
+#actualite {
 	display: none;
 }
 
-/**Main map **/
+/**Main#map **/
 
-.map {
+#map {
 	width: 45%;
 }
 
-.map img {
+#map img {
 	margin: auto;
 }
 
 /**Aside div with the regions **/
 
-.contain aside {
+#contain aside {
 	display: none;
 }
 
@@ -232,11 +232,11 @@ footer div:nth-child(3) div:nth-child(2) p {
 
 @media screen and (min-width: 500px) {
 
-	.depot {
+	#depot {
 		margin-top: 5%;
 	}
 	
-	.map {
+	#map {
 		margin: auto;
 	}
 
@@ -259,36 +259,36 @@ footer div:nth-child(3) div:nth-child(2) p {
 
 @media screen and (min-width: 800px) {
 
-/**Column design with the maps on the right side and prepare the aside to go on the right later **/
+/**Column design with the#maps on the right side and prepare the aside to go on the right later **/
 
-	.contain section, aside {
+	#contain section, aside {
 		display: inline-block;
 		vertical-align: top;
 		margin-top: 7%;
 	}
 
-	.contain section {
+	#contain section {
 		width: 100%;
 		margin-bottom: 5%;
 	}
 
-	.left {
+	#left {
 		width: 45%;
 		display: inline-block;
 		vertical-align: top;
 		margin: 2% 0 2% 4%;
 	}
 
-	.left p {
+	#left p {
 		margin-top: 0;
-		text-align: left;
+		text-align:#left;
 	}
 
-	.depot, .recherche, .actualite {
+	#depot, #recherche, #actualite {
 		width: 90%;
 	}
 
-	.actualite {
+	#actualite {
 		display: block;
 		color: white;
 		background-color: #666;
@@ -296,17 +296,17 @@ footer div:nth-child(3) div:nth-child(2) p {
 		margin-top: 5%;
 	}
 
-	.actualite img {
+	#actualite img {
 		width: 100%;
 		margin-top: 4%;
 	}
 
-	.map {
+	#map {
 		display: inline-block;
 		vertical-align: top;
 	}
 
-	.map img {
+	#map img {
 		margin: 15% 0 0 15%;
 	}
 
@@ -366,7 +366,7 @@ footer div:nth-child(3) div:nth-child(2) p {
 
 @media screen and (min-width: 980px) {
 
-	.contain section {
+	#contain section {
 		margin-bottom: 10%;
 	}
 
@@ -380,7 +380,7 @@ footer div:nth-child(3) div:nth-child(2) p {
 		display: none;
 	}
 
-	nav  ul,.listnav, h1, .connection {
+	nav  ul,.listnav, h1, #connection {
 		display: inline-block;
 		vertical-align: middle;
 		color: white;
@@ -402,14 +402,14 @@ footer div:nth-child(3) div:nth-child(2) p {
 		text-decoration: underline;
 	}
 
-	.connection {
+	#connection {
 		font-size: 0.85em;
 		padding: 0.5%;
 		border: 1px solid white;
 		border-radius: 5px;
 	}
 
-	.connection:hover {
+	#connection:hover {
 		background-color: white;
 		color: #f56b2a;
 	}
@@ -436,12 +436,12 @@ footer div:nth-child(3) div:nth-child(2) p {
 	
 /**Column layout on a 80% base **/
 
-	.contain {
+	#contain {
 		width: 80%;
 		margin: auto;
 	}
 
-	.contain section {
+	#contain section {
 		width: 78%;
 	}
 
@@ -449,13 +449,13 @@ footer div:nth-child(3) div:nth-child(2) p {
 		width: 80%;
 	}
 
-	.left: {
+	#left: {
 		margin: 0 4% 0 0; 
 	}
 
-/**Allows the display of the left list **/
+/**Allows the display of the#left list **/
 
-	.contain aside {
+	#contain aside {
 		display: inline-block;
 		width: 18%;
 	}
@@ -522,7 +522,7 @@ footer div:nth-child(3) div:nth-child(2) p {
 
 @media screen and (min-width:1500px) {
 
-	.contain {
+	#contain {
 		width: 70%;
 	}
 
