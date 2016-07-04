@@ -389,7 +389,7 @@ footer div:nth-child(3) div:nth-child(2) p {
 		width: 70%;
 	}
 
-	nav .listnav {
+	.listnav {
 		font-size: 1em;
 		margin: 0 1%;
 	}
@@ -402,14 +402,14 @@ footer div:nth-child(3) div:nth-child(2) p {
 		text-decoration: underline;
 	}
 
-	nav .connection {
+	.connection {
 		font-size: 0.85em;
 		padding: 0.5%;
 		border: 1px solid white;
 		border-radius: 5px;
 	}
 
-	nav .connection:hover {
+	.connection:hover {
 		background-color: white;
 		color: #f56b2a;
 	}
