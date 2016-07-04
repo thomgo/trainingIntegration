@@ -1,3 +1,11 @@
+/****************************************
+
+	-----General-----
+
+****************************************/
+
+/*All content */
+
 * {
 	box-sizing: border-box;
 }
@@ -8,23 +16,36 @@ body {
 	color: #1a1a1a;
 }
 
+/****************************************
+
+	-----Header-----
+
+****************************************/
+
+/*Header*/
+
 header {
 	width: 100%;
 	height: 100%;
+	padding-top: 2%;
 	background-color: #ff7b40;
 	background-image: linear-gradient(#ff7b40, #ff4f00);
 	border-bottom: 5px solid #a63400;
 }
 
+/*Logo div and image */
+
 #logo {
 	width: 30%;
-	margin: 2% 35%;
+	margin: 0% 35%;
 }
 
 #logo img {
 	width: 100%;
 	height: 100%;
 }
+
+/*Main title */
 
 h1 {
 	font-family:'Orbitron', sans-serif;
@@ -34,10 +55,20 @@ h1 {
 	margin: 2%;
 }
 
+/****************************************
+
+	-----Main content-----
+
+****************************************/
+
+/*Text content */
+
 p {
 	text-align: center;
 	margin: 4%;
 }
+
+/*Tables */
 
 table {
 	width: 100%;
@@ -59,6 +90,14 @@ td {
 	padding: 2% 1%;
 }
 
+/****************************************
+
+	-----Footer-----
+
+****************************************/
+
+/*Footer and text content */
+
 footer {
 	width: 100%;
 	background-color: #ff7b40;
@@ -76,6 +115,8 @@ footer span {
 	padding: 0 2%;
 }
 
+/*Footer image and div */
+
 #footerimg {
 	width: 30%;
 	border: 1px solid black;
@@ -86,6 +127,14 @@ footer span {
 	max-width: 100%;
 	padding: 0;
 }
+
+/****************************************
+
+	-----Other resolutions-----
+
+****************************************/
+
+/*Tablets usual size */
 
 @media screen and (min-width: 650px) {
 
@@ -116,6 +165,8 @@ footer span {
 
 }
 
+/*Big tablets */
+
 @media screen and (min-width: 980px) {
 
 	h1 {
@@ -138,6 +189,8 @@ footer span {
 	}
 
 }
+
+/*Notebook/Laptop */
 
 @media screen and (min-width: 1280px) {
 
@@ -180,6 +233,8 @@ footer span {
 	}
 
 }
+
+/*Desktop */
 
 @media screen and (min-width: 1800px){
 
