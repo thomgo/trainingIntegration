@@ -1,0 +1,20 @@
+body {
+	background-color: #fcfdfd;
+}
+
+.jumbotron {
+	border-bottom: 1em solid #06246f;
+}
+
+.card {
+	box-shadow: 3px 3px 10px black;
+}
+
+.jumbotron h1 {
+	font-size: 30px;
+}
+
+.card-header h3 {
+	font-size: 24px;
+}
+
