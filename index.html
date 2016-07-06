@@ -22,15 +22,15 @@
 
     <body>
 
-	    <div class="container-fluid m-t-3"> 
-		<div class="row">
-			    <div class="col-xs-12">
+	    <div class="container-fluid" id="top"> 
 				    <nav class="navbar navbar-fixed-top navbar-light" style="background-color: #e3f2fd;">
 					<div class="container">
-
+						<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+							    &#9776;
+						</button>
+						<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
 		  			  <ul class="nav navbar-nav">
-
-			       			 <li class="nav-item active">
+			       			 <li class="nav-item">
 							<a class="nav-link" href="https://www.w3.org/" target="_blank">W3C<span class="sr-only">(current)</span></a>
 						</li>
 						
@@ -41,17 +41,41 @@
 						<li class="nav-item">
 							<a class="nav-link" href="http://www.simplehtmlguide.com/cheatsheet.php" target="blank">Source</a>
 						</li>
-											          
+
+						<!--Mobile anchors for easier navigation -->
+						<li class="nav-item hidden-sm-up">
+							<a class="nav-link" href="#infos">Infos primaires<span class="sr-only">(current)</span></a>
+						</li>
+						
+						<li class="nav-item hidden-sm-up">
+							<a class="nav-link" href="#structure">Structure</a>
+						</li>
+									    
+						<li class="nav-item hidden-sm-up">
+							<a class="nav-link" href="#texte">Texte</a>
+						</li>
+				          	<li class="nav-item hidden-sm-up">
+							<a class="nav-link" href="#images">Images et liens<span class="sr-only">(current)</span></a>
+						</li>
+						
+						<li class="nav-item hidden-sm-up">
+							<a class="nav-link" href="#listes">Listes et tableaux</a>
+						</li>
+									    
+						<li class="nav-item hidden-sm-up">
+							<a class="nav-link" href="#formulaires">Formulaires</a>
+						</li>
+						<li class="nav-item hidden-sm-up">
+							<a class="nav-link" href="#top">Retour en haut</a>
+						</li>
+
 		  			  </ul>
+						</div>
 					</div>
 	 			 </nav>
-
-				</div>
-
-			</div>
 	    </div>
 		
-		<div class="jumbotron jumbotron-fluid bg-primary p-y-1">
+		<div class="jumbotron jumbotron-fluid bg-primary p-y-1 m-t-3">
 
 		    <div class="row">
 			    <div class="hidden-xs-down col-sm-3 col-lg-2">
@@ -74,9 +98,9 @@
 		  <p class="text-xs-center">Les balises sont la base de tout document html et changent régulièrement au fil des évolutions du langage. Avec html5 de nouvelles balises, plus pratiques et mieux adaptées à nos besoins sont apparues. Les balises en html sont nombreuses et il serait bien compliqué de toutes les retenir mais ce petit document récapitule les balises les plus utiles à l'heure actuelle. En espérant qu'il vous fasse gagner du temps !</p>
 
 			<div class="row">
-		    		<div class="col-xs-12 col-sm-6 col-lg-4">
+		    		<div class="col-xs-12 col-sm-6 col-lg-4" id="infos">
 
-					<div class="card m-t-1">
+					<div class="card m-t-3">
 
 						<div class="card-header bg-primary">
 							<i class="fa fa-desktop fa-2x pull-xs-left m-t-1" aria-hidden="true"></i>
@@ -97,9 +121,9 @@
 					</div>
 				</div>
 				
-				<div class="col-xs-12 col-sm-6 col-lg-4">
+				<div class="col-xs-12 col-sm-6 col-lg-4" id="structure">
 
-					<div class="card m-t-1">
+					<div class="card m-t-3">
 
 						<div class="card-header bg-primary">
 							<i class="fa fa-university fa-2x pull-xs-left" aria-hidden="true"></i>
@@ -121,9 +145,9 @@
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-sm-6 col-lg-4">
+				<div class="col-xs-12 col-sm-6 col-lg-4" id="texte">
 
-					<div class="card m-t-1">
+					<div class="card m-t-3">
 
 						<div class="card-header bg-primary">
 							<i class="fa fa-align-center fa-2x pull-xs-left" aria-hidden="true"></i>
@@ -145,8 +169,8 @@
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<div class="card m-t-1">
+				<div class="col-xs-12 col-sm-6 col-lg-4" id="images">
+					<div class="card m-t-3">
 						<div class="card-header bg-primary">
 							<i class="fa fa-file-image-o fa-2x pull-xs-left" aria-hidden="true"></i>
 							  <h3 class="text-xs-center">Images et liens</h3>
@@ -165,8 +189,8 @@
 					</div>
 				</div>
 				
-				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<div class="card m-t-1">
+				<div class="col-xs-12 col-sm-6 col-lg-4" id="listes">
+					<div class="card m-t-3">
 						<div class="card-header bg-primary">
 							<i class="fa fa-table fa-2x pull-xs-left" aria-hidden="true"></i>
 							  <h3 class="text-xs-center">Listes et tableaux</h3>
@@ -187,8 +211,8 @@
 					</div>
 				</div>
 				
-				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<div class="card m-t-1">
+				<div class="col-xs-12 col-sm-6 col-lg-4" id="formulaires">
+					<div class="card m-t-3">
 						<div class="card-header bg-primary">
 							<i class="fa fa-question-circle fa-2x pull-xs-left" aria-hidden="true"></i>
 							  <h3 class="text-xs-center">Formulaires</h3>
