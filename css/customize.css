@@ -10,7 +10,7 @@ body {
 
 .jumbotron {
 	border-bottom: 1em solid #06246f;
-	background-image: url('../img/background.jpg');
+	background: linear-gradient(#0275d8, transparent 99%), #0275d8 url('../img/background.jpg');
 	background-size: cover;
 }
 
