@@ -1,3 +1,9 @@
+/**************************
+ 
+~~~~~~~~~~~General adjustements~~~~~~~~~~~~~
+
+ *******************************/
+
 body {
 	background-color: #fcfdfd;
 }
@@ -12,11 +18,47 @@ body {
 	box-shadow: 3px 3px 10px black;
 }
 
+/* Fonts adjustements */
+
 .jumbotron h1 {
 	font-size: 30px;
 }
 
+h2 {
+	font-size: 26px;
+}
+
 .card-header h3 {
 	font-size: 24px;
+}
+
+
+/******************************
+
+~~~~~~~~~~Fonts adjustements on bigger devices~~~~~~~~~~~~~~~~
+
+*******************************/
+
+
+@media (min-width: 544px) {
+	h2 {
+		font-size: 30px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	
+	.jumbotron h1 {
+		font-size: 46px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	
+	.jumbotron h1 {
+		font-size: 54px;
+	}
 }
 
