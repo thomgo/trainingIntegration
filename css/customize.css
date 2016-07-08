@@ -4,11 +4,19 @@
 
 **/
 .top-bar {
-  background-color: #3adb76
+  background-color: #3adb76;
 }
 
 .top-bar h1 {
   margin-top: .5em;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-family: 'Katibeh', cursive;
+  font-size: 1.5em;
 }
 
 nav, section {
@@ -30,6 +38,12 @@ footer {
   background-color: #cefbad;
   height: 5em;
 }
+
+/**
+
+~~~~~~~~~~Responsive design~~~~~~~~~~~~~
+
+**/
 
 @media only screen and (min-width: 40.063em) {
 
