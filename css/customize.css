@@ -1,0 +1,50 @@
+/**
+
+~~~~~~~~~~General adjustments~~~~~~~~~~~~~
+
+**/
+.top-bar {
+  background-color: #3adb76
+}
+
+.top-bar h1 {
+  margin-top: .5em;
+}
+
+nav, section {
+  background-color: white;
+}
+
+section {
+  margin-top: 1em;
+  position: relative;
+}
+
+section .button {
+  position: fixed;
+  bottom: 0;
+  left: 30%;
+}
+
+footer {
+  background-color: #cefbad;
+  height: 5em;
+}
+
+@media only screen and (min-width: 40.063em) {
+
+  body {
+    background-image: url(../img/background.jpg);
+  }
+
+  .top-bar {
+
+    margin: 2em 0;
+  }
+
+}
+
+@media only screen and (min-width: 64.063em) {
+
+
+}
