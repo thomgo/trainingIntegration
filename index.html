@@ -45,28 +45,199 @@
 
   <a href="about.html" class=" success button">Retour en haut</a>
 
-<!--Lists-->
+<!--Tables-->
    <div class="small-12 medium-10 columns">
      <div class="row">
        <div class="small-12 medium-6 large-4 columns">
-         <p>a test paragraphe</p>
+         <table>
+            <thead>
+              <tr>
+                <th width="200" colspan="2"><h3>Syntaxe</h3></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>nav>ul>li</td>
+                <td>création des éléments enfants</td>
+              </tr>
+              <tr>
+                <td>div+p+bq</td>
+                <td>crée des éléments parents</td>
+              </tr>
+              <tr>
+                <td>div+div>p>span+em^^bq</td>
+                <td>insère le blockquote après la div</td>
+              </tr>
+              <tr>
+                <td>(div>dl>(dt+dd)*3)+footer>p</td>
+                <td>groupement pour calcul</td>
+              </tr>
+            </tbody>
+          </table>
        </div>
        <div class="small-12 medium-6 large-4 columns">
-         <p>a test paragraphe</p>
+         <table>
+            <thead>
+              <tr>
+                <th width="200" colspan="2"><h3>Numération</h3></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ul>li*5</td>
+                <td>multiplication de l'élément li</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$*5</td>
+                <td>numération d'une classe item de 1 à 5</td>
+              </tr>
+              <tr>
+                <td>h$[title=item$]{Header $}*3</td>
+                <td>titre de h1 à h3 avec titre de 1 à 3</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$$$*5</td>
+                <td>numérotation classe item de 001 à 005</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$@-*5</td>
+                <td>numérotation décroissante</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$@3*5</td>
+                <td>numérotation à partir de 3</td>
+              </tr>
+            </tbody>
+          </table>
        </div>
        <div class="small-12 medium-6 large-4 columns">
-         <p>a test paragraphe</p>
+         <table>
+            <thead>
+              <tr>
+                <th width="200" colspan="2"><h3>Tags et attributs</h3></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#header</td>
+                <td>div id header</td>
+              </tr>
+              <tr>
+                <td>.title</td>
+                <td>div classe title</td>
+              </tr>
+              <tr>
+                <td>p.class1.class2.class3</td>
+                <td>paragraphe avec 3 classes</td>
+              </tr>
+              <tr>
+                <td>.class</td>
+                <td>div avec classe</td>
+              </tr>
+              <tr>
+                <td>ul>.class</td>
+                <td>liste avec classe sur li</td>
+              </tr>
+              <tr>
+                <td>a{Click me}</td>
+                <td>lien avec texte</td>
+              </tr>
+            </tbody>
+          </table>
        </div>
        <div class="small-12 medium-6 large-4 columns">
-         <p>a test paragraphe</p>
+         <table>
+            <thead>
+              <tr>
+                <th width="200" colspan="2"><h3>Raccourcis html</h3></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>a:link</td>
+                <td>lien complet</td>
+              </tr>
+              <tr>
+                <td>a:mail</td>
+                <td>lien vers mail</td>
+              </tr>
+              <tr>
+                <td>img</td>
+                <td>balise image complète</td>
+              </tr>
+              <tr>
+                <td>sect</td>
+                <td>balise section</td>
+              </tr>
+              <tr>
+                <td>hdr/nav/fig</td>
+                <td>balises structurantes</td>
+              </tr>
+              <tr>
+                <td>btn</td>
+                <td>button</td>
+              </tr>
+              <tr>
+                <td>ul+ / table+</td>
+                <td>liste ou table</td>
+              </tr>
+            </tbody>
+          </table>
        </div>
        <div class="small-12 medium-6 large-4 columns">
-         <p>a test paragraphe</p>
+         <table>
+            <thead>
+              <tr>
+                <th width="200" colspan="2"><h3>Raccourcis css</h3></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>pos / pos : s a r f</td>
+                <td>différents positionnements</td>
+              </tr>
+              <tr>
+                <td> t/r/b/l : a</td>
+                <td>top, right, bottom, left : auto</td>
+              </tr>
+              <tr>
+                <td>fl : r/l</td>
+                <td>float left/right</td>
+              </tr>
+              <tr>
+                <td>m / m : a </td>
+                <td>margin / margin auto</td>
+              </tr>
+              <tr>
+                <td>mt/mr/mb/ml</td>
+                <td>différentes margin</td>
+              </tr>
+              <tr>
+                <td>pt/pr/pb/pl</td>
+                <td>différents paddings</td>
+              </tr>
+              <tr>
+                <td>f</td>
+                <td>font : </td>
+              </tr>
+              <tr>
+                <td>bd+</td>
+                <td>border : 1px solid #000</td>
+              </tr>
+              <tr>
+                <td>bg+</td>
+                <td>background : #fff url () 0 0 no-repeat</td>
+              </tr>
+            </tbody>
+          </table>
        </div>
      </div>
   </div>
 
 </div>
+
+<!--End of the general row-->
+
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
