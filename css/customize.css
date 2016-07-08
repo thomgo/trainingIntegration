@@ -52,13 +52,50 @@ footer {
   }
 
   .top-bar {
-
+    background-color: rgba(58, 219, 118, 0.8);
     margin: 2em 0;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  section .button {
+    left: 40%;
+  }
+
+  footer {
+    margin-top: 2em;;
   }
 
 }
 
 @media only screen and (min-width: 64.063em) {
 
+  nav {
+    margin-top: 1em;
+    background-color: rgba(58, 219, 118, 0.9);
+    height: 300px;
+  }
+
+  nav a {
+    color: white;
+  }
+
+  section .button {
+    display: none;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  footer {
+    height: 4em;
+    font-size: 1.25em;
+    padding-top: 1em;
+  }
 
 }
