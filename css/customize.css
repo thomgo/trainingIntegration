@@ -3,6 +3,8 @@
 ~~~~~~~~~~General adjustments~~~~~~~~~~~~~
 
 **/
+
+/**Header styling**/
 .top-bar {
   background-color: #3adb76;
 }
@@ -14,11 +16,7 @@
   color: white;
 }
 
-h2 {
-  font-family: 'Katibeh', cursive;
-  font-size: 1.5em;
-}
-
+/**Nav and section styling**/
 nav, section {
   background-color: white;
 }
@@ -34,6 +32,21 @@ section .button {
   left: 30%;
 }
 
+/**Content styling**/
+h2 {
+  font-family: 'Katibeh', cursive;
+  font-size: 1.5em;
+}
+
+table {
+  margin-top: 2em;
+}
+
+table span {
+  font-size: 1.5em;
+}
+
+/**Footer styling**/
 footer {
   background-color: #cefbad;
   height: 5em;
@@ -45,6 +58,7 @@ footer {
 
 **/
 
+/**Medium devices**/
 @media only screen and (min-width: 40.063em) {
 
   body {
@@ -72,12 +86,14 @@ footer {
 
 }
 
+/**Large devices**/
 @media only screen and (min-width: 64.063em) {
 
   nav {
     margin-top: 1em;
     background-color: rgba(58, 219, 118, 0.9);
     height: 300px;
+    border-bottom: 4px solid black
   }
 
   nav a {
