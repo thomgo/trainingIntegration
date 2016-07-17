@@ -26,6 +26,7 @@ section {
   position: relative;
 }
 
+/*Je n'ai pas réussi à faire fonctionner le sticky de foundation pour le boutton*/
 section .button {
   position: fixed;
   bottom: 0;
