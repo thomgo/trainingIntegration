@@ -95,11 +95,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 /* ##################################################################### */
 /* ##########################   SMARTPHONE   ########################### */
 /* ##################################################################### */
 /* Extra small devices (phones, less than 768px) */
-
+.jumbotron {
+  background-image: url(../img/header_small.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 
 /* ##################################################################### */
@@ -107,7 +112,11 @@ textarea {
 /* ##################################################################### */
 /* Small devices (tablets, 768px and up) */
    @media (min-width: 768px) {
-
+     .jumbotron {
+       background-image: url(../img/header_medium.jpg);
+       background-position: center;
+       background-size: cover;
+     }
    }
 
 /* ##################################################################### */
@@ -123,7 +132,11 @@ textarea {
 /* ##################################################################### */
 /* Large devices (large desktops, 1200px and up) */
    @media (min-width: 1200px) {
-
+     .jumbotron {
+       background-image: url(../img/header.jpg);
+       background-position: center;
+       background-size: cover;
+     }
    }
 
 
