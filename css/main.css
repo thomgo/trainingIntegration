@@ -98,6 +98,15 @@ body {
   background-color: #b8cadc;
 }
 
+h1 {
+  font-family: 'Galada', cursive;
+}
+
+p, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+
 a {
   color: inherit;
 }
