@@ -95,11 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  background-color: #b8cadc;
+  background-color: #eaf0fe;
 }
 
-h1, header span {
+h1 {
   color: #e30303;
+  text-shadow: 2px 2px 4px black;
 }
 
 #band {
@@ -108,6 +109,10 @@ h1, header span {
 
 h1 {
   font-family: 'Galada', cursive;
+}
+
+header nav, body div:nth-child(2), footer {
+  box-shadow: 3px 3px 20px black;
 }
 
 h2, h3, h4, h5 {
@@ -136,8 +141,16 @@ section {
   bottom: 0;
 }
 
+#top-band {
+  border-top: .3em solid #e30303;
+}
+
 footer p, footer span, footer nav a {
   font-size: 0.8em;
+}
+
+footer {
+  border-bottom: 1em solid #001a57
 }
 /* ##################################################################### */
 /* ##########################   SMARTPHONE   ########################### */
