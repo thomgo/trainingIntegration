@@ -136,9 +136,10 @@ section {
   position: relative;
 }
 
-.container-fluid .btn {
+#top-button {
   position: fixed;
-  bottom: 0;
+  bottom: 2px;
+  z-index: 100;
 }
 
 #top-band {
