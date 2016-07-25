@@ -186,6 +186,14 @@ footer {
    @media (min-width: 768px) {
      .jumbotron {
        background-image: url(../img/header_medium.jpg);
+     }
+
+     body {
+       background-image: url(../img/bulles_medium.jpg);
+       background-repeat: repeat;
+     }
+
+     body, .jumbotron {
        background-position: center;
        background-size: cover;
      }
@@ -206,6 +214,14 @@ footer {
    @media (min-width: 1200px) {
      .jumbotron {
        background-image: url(../img/header.jpg);
+     }
+
+     body {
+       background-image: url(../img/bulles.jpg);
+       background-repeat: repeat;
+     }
+
+     body, .jumbotron {
        background-position: center;
        background-size: cover;
      }
