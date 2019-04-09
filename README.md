@@ -1,2 +1,2 @@
-# cheat-sheet-terminal
-Une cheat-sheet sur les commandes essentielles du terminal Linux
+# cheat-sheet-css
+a cheat sheet on css

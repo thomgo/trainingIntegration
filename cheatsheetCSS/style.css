@@ -1,0 +1,281 @@
+/****************************************
+
+	-----General-----
+
+****************************************/
+
+/*All content */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Play', sans-serif;
+	color: #1a1a1a;
+}
+
+h2, thead {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+
+
+/****************************************
+
+	-----Header-----
+
+****************************************/
+
+/*Header*/
+
+header {
+	width: 100%;
+	height: 100%;
+	padding-top: 2%;
+	background-color: #ff7b40;
+	background-image: linear-gradient(#ff7b40, #ff4f00);
+	border-bottom: 5px solid #a63400;
+}
+
+/*Logo div and image */
+
+#logo {
+	width: 30%;
+	margin: 0% 35%;
+}
+
+#logo img {
+	width: 100%;
+	height: 100%;
+}
+
+/*Main title */
+
+h1 {
+	font-family:'Orbitron', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	text-shadow: 3px 3px 3px white;
+	margin: 2%;
+}
+
+/****************************************
+
+	-----Main content-----
+
+****************************************/
+
+/*Text content */
+
+h2 {
+	font-size: 2em;
+}
+
+p {
+	text-align: center;
+	margin: 4%;
+}
+
+/*Tables */
+
+table {
+	width: 100%;
+	margin: 7% 0;
+}
+thead {
+	background-color: #2b7930;
+	font-size: 1.5em;
+	font-style: italic;
+	color: white;
+}
+
+tbody tr {
+	background-color: #8cd290;
+}
+
+td {
+	padding: 2% 1%;
+}
+
+/****************************************
+
+	-----Footer-----
+
+****************************************/
+
+/*Footer and text content */
+
+footer {
+	width: 100%;
+	background-color: #ff7b40;
+	background-image: linear-gradient(#ff4f00, #ff7b40);
+	border-top: 5px solid #a63400;
+	text-align: center;
+	padding: 2% 0;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer span {
+	padding: 0 2%;
+}
+
+/*Footer image and div */
+
+#footerimg {
+	width: 30%;
+	border: 1px solid black;
+	margin: 2% 35% 2% 35%;
+}
+
+#footerimg  img {
+	max-width: 100%;
+	padding: 0;
+}
+
+/****************************************
+
+	-----Other resolutions-----
+
+****************************************/
+
+/*Tablets usual size */
+
+@media screen and (min-width: 650px) {
+
+	#logo, h1 {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	#logo {
+		width: 15%;
+		margin: 2%;
+	}
+
+	h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	footer span {
+	font-size: 1.5em;
+	}
+
+	#footerimg {
+	width: 20%;
+	margin: 2% 40% 2% 40%;
+	}
+
+
+}
+
+/*Big tablets */
+
+@media screen and (min-width: 980px) {
+
+	h1 {
+	font-size: 2.5em;
+	}
+
+	p {
+		font-size: 1.25em;
+	}
+
+	table {
+		width: 40%;
+		margin: 3% 4.5% 3% 4.5%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	td {
+		width: 50%;
+	}
+
+}
+
+/*Notebook/Laptop */
+
+@media screen and (min-width: 1280px) {
+
+	body {
+		background-color: #1a1a1a;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	#logo {
+		width: 10%;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	section {
+		width: 80%;
+		margin: auto;
+		padding-top: 3%;
+		background-color: white;
+	}
+
+	footer {
+		padding: 0;
+	}
+
+
+	footer span, #footerimg {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	#footerimg {
+	width: 10%;
+	margin: 1% 2%;
+	}
+
+}
+
+/*Desktop */
+
+@media screen and (min-width: 1800px){
+
+	#logo {
+		width: 7%;
+		margin: 1% 2%;
+	}
+
+	h1 {
+		font-size: 3.5em;
+	}
+
+	h2 {
+		font-size: 3em;
+	}
+
+	p{
+		margin: 1%;
+		}
+
+	table {
+		width: 25%;
+		margin: 2% 3%;
+	}
+
+	footer span {
+		font-size: 2em;
+	}
+
+	#footerimg {
+		width: 7%;
+	}
+
+}
+

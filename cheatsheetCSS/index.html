@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron|PT+Sans|Play" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/ico" href="favicon.ico" /> 
+	<title>Cheat sheet CSS</title>
+
+</head>
+
+<body>
+
+<!--
+
+	~~~~~~~~~Start header~~~~~~~~
+
+-->
+
+<header>
+
+	<div id="logo">
+
+		<img src="css3.png" alt="logo css3"/>
+
+	</div>
+
+	<h1>Les fondamentaux de CSS</h1>
+
+</header>
+
+<!--
+
+	~~~~~~~~End header~~~~~~~~~
+
+-->
+
+<!--
+
+	~~~~~~~~Start section~~~~~~
+
+-->
+
+<section>
+
+	<h2>Les propriétés</h2>
+
+	<p>CSS, pour cascading style sheet ou feuille de style en cascade et le langage qui vous permet de mettre en forme votre contenu html et de le rendre un peu plus joli. En CSS, on attribue des propriétés à des selecteurs et ces propriétés sont déterminées par des valeurs. Voici les propriétés essentielles. </p>
+
+<!--
+
+	~~~~~~~~Start table content~~~~~~~
+
+-->
+
+	<table>
+
+		<thead>
+
+			<tr>
+				<th colspan="2">background</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<td>background-color: couleur</td>
+				<td>couleur de fond</td>
+			</tr>
+			<tr>
+				<td>background-image: src (url)</td>
+				<td>image de fond</td>
+			</tr>
+			<tr>
+				<td>background-repeat: repeat/no-repeat</td>
+				<td>répétition ou non du fond</td>
+			</tr>
+
+		</tbody>
+
+	</table>
+
+	<table>
+
+		<thead>
+
+			<tr>
+				<th colspan="2">border</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>border-color: color</td>
+				<td>couleur</td>
+			</tr>
+			<tr>
+				<td>border-widht: px, %, em</td>
+				<td>épaisseur de la bordure</td>
+			</tr>
+			<tr>
+				<td>border-style: solid, dashed, inset...</td>
+				<td>style de bordure</td>
+			</tr>
+			<tr>
+				<td>border: 2px solid white</td>
+				<td>super propriété border</td>
+			</tr>
+			<tr>
+				<td>border-top/right/bottom/left</td>
+				<td>selection d'un côté</td>
+			</tr>
+			<tr>
+				<td>border-radiux: valeurpx</td>
+				<td>arrondie des angles</td>
+			</tr>
+			<tr>
+				<td>box-shadow: px px px color</td>
+				<td>ombre de la boîte</td>
+			</tr>
+		
+		</tbody>
+
+	</table>
+
+	<table>
+
+		<thead>
+
+			<tr>
+				<th colspan="2">display and size</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<td>width: px/%</td>
+				<td>largeur</td>
+			</tr>
+			<tr>
+				<td>height: px/%</td>
+				<td>hauteur</td>
+			</tr>
+			<tr>
+				<td>min-width/max-width</td>
+				<td>largeur minimale/maximale</td>
+			</tr>
+			<tr>
+				<td>min-height/max-height</td>
+				<td>hauteur minimale/maximale</td>
+			</tr>
+			<tr>
+				<td>float: left/right/none</td>
+				<td>élément floattant</td>
+			</tr>
+			<tr>
+				<td>clear: left/right/both/none</td>
+				<td>empêche un élément de floatter</td>
+			</tr>
+			<tr>
+				<td>display: block/inline/inline-block/none</td>
+				<td>affichage de l'élément</td>
+			</tr>
+			<tr>
+				<td>vertical-align: top/middle/bottom</td>
+				<td>alignement vertical</td>
+			</tr>
+
+		</tbody>
+
+	</table>
+
+	<table>
+
+		<thead>
+
+			<tr>
+				<th colspan="2">Fonts</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>font-family: 'family'</td>
+				<td>type de police</td>
+			</tr>
+			<tr>
+				<td>font-size: px/em/%</td>
+				<td>taille de police</td>
+			</tr>
+			<tr>
+				<td>font-style: normal/italic/oblique</td>
+				<td>style de la police</td>
+			</tr>
+			<tr>
+				<td>font-weight: normal/bold/light/200...</td>
+				<td>épaisseur de la police</td>
+			</tr>
+
+		</tbody>
+
+	</table>
+
+	<table>
+
+		<thead>
+
+			<tr>
+				<th colspan="2">Margin, padding and position</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<td>margin: px/%</td>
+				<td>marge externe</td>
+			</tr>
+			<tr>
+				<td>padding: px/%</td>
+				<td>marge interne</td>
+			</tr>
+			<tr>
+				<td>margin-top/right/bottom/left</td>
+				<td>marge haute/droite/basse/gauche</td>
+			</tr>
+			<tr>
+				<td>padding-top/right/bottom/left</td>
+				<td>marge interne haute/droite/basse/gauche</td>
+			</tr>
+			<tr>
+				<td>margin: 1 1 1 1</td>
+				<td>super propriété marge externe</td>
+			</tr>
+			<tr>
+				<td>padding: 1 1 1 1</td>
+				<td>super propriété marge interne</td>
+			</tr>
+			<tr>
+				<td>position: absolute/relative/fixed/static</td>
+				<td>position de l'élément</td>
+			</tr>
+			<tr>
+				<td>overflow: visible/hidden/scroll/auto</td>
+				<td>rognage du contenu</td>
+			</tr>
+
+		</tbody>
+
+	</table>
+
+	<table>
+
+		<thead>
+
+			<tr>
+				<th colspan="2">Text</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<td>text-align: center/right/left/justify</td>
+				<td>alignement du texte</td>
+			</tr>
+			<tr>
+				<td>text-decoration: none/underline/overline</td>
+				<td>décoration du texte</td>
+			</tr>
+			<tr>
+				<td>text-shadow: color lenghtpx</td>
+				<td>ombre du texte</td>
+			</tr>
+			<tr>
+				<td>color: color</td>
+				<td>couleur du texte</td>
+			</tr>
+			<tr>
+				<td>word-spacing: px/%</td>
+				<td>espacement entre les mots</td>
+			</tr>
+			<tr>
+				<td>word-wrap: break-word</td>
+				<td>retour à la ligne forcé</td>
+			</tr>
+		
+		</tbody>
+	
+	</table>
+
+	<table>
+
+		<thead>
+
+			<tr>
+				<th colspan="2">Pseudo-class</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<td>:visited</td>
+				<td>lien visité</td>
+			</tr>
+			<tr>
+				<td>:hover</td>
+				<td>élément survolé</td>
+			</tr>
+			<tr>
+				<td>:link</td>
+				<td>lien non-visité</td>
+			</tr>
+			<tr>
+				<td>:nth-child (n)</td>
+				<td>enfant numéro n du parent</td>
+			</tr>
+			<tr>
+				<td>:first-child</td>
+				<td>premier enfant</td>
+			</tr>
+			<tr>
+				<td>:last-child</td>
+				<td>dernier enfant</td>
+
+		</tbody>
+
+	</table>
+
+<!--
+
+	~~~~~~~End table content~~~~~~~~
+
+-->
+
+</section>
+
+<!--
+
+	~~~~~~~~End section~~~~~~~
+
+-->
+
+<!--
+
+	~~~~~~~Start footer~~~~~~~
+
+-->
+
+<footer>
+
+	<span>Une réalisation <a href="mailto:tg.59290@gmail.com">Thomas Gossart</a> Pour l'école <a href="http://www.simplon.co/roubaix">Simplon Roubaix</a></span>
+
+	<div id="footerimg"><img src="profil.jpg" alt="photo profil thomas gossart"></div>
+
+
+</footer>
+
+<!--
+
+	~~~~~~~~End footer~~~~~~~
+
+-->
+
+</body>
+
+</html>
