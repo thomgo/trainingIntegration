@@ -1,2 +1,2 @@
-# cheat-sheet-vim
-A cheat sheet to know everything about Vim's shortcuts
+# cheat-sheet-terminal
+Une cheat-sheet sur les commandes essentielles du terminal Linux
