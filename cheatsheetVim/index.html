@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css" />
+<title>L'essentiel de VIM</title>
+
+</head>
+
+<body>
+
+<!--Start navigation menu-->
+	<nav>
+		<ul>
+			<li><a href="#ancrebas">Aller en bas de page</a></li>
+			<li><a href="#ancrehaut">Retourner en haut</a></li>
+			<li><a href="http://www.vim.org" target="_blank">Site officiel</a></li>
+		</ul>
+	</nav>
+
+<!-- Start header, banheader is the white band on the site -->
+	<header>
+		<div id="bandheader">
+
+		<p id="ancrehaut">Une cheat sheet pour ne plus bloquer sur VIM !</p>
+
+		</div>
+	</header>
+
+<!--First paragraph -->
+	<section>
+		<h1>Bienvenue sur mon humble feuille Vim !</h1>
+		<p>Vim est un éditeur puissant mais très complexe, voire déroutant quand on débute ;-). Pourtant il vous permettra de coder plus rapidement qu'aucun autre outil sur le marché, pour peu que vous vous fassiez violence et appreniez la longue liste des raccourcis clavier qui pemettent de travailler. Rassurer-vous si la liste est longue, pour commencer quelques raccourcis vous suffiront ! Voilà l'objectif de cette liste : vous fournir les commandes essentielles pour survivre au moins dans un premier temps. Si jamais vous douter de l'efficacité de Vim, cette petite <a href="https://www.youtube.com/watch?v=lQNFfhC4QI8" target="_blank">vidéo</a> vous fera probablement changer d'avis</p>
+
+<!--Start listing the different shortcuts -->
+		<h2>Les commandes basiques</h2>
+			<div class="commandes">
+
+				<div class="action-commandes">
+					<h3>Se déplacer</h3>
+				</div>
+
+				<ul>
+					<li>h = déplacement à gauche</li>
+					<li>j = déplacement en bas</li>
+					<li>k = déplacement en haut</li>
+					<li>l = déplacement à droite</li>
+					<li>w = avance par début de mot</li>
+					<li>b = recule par mot</li>
+					<li>0 = aller en début de ligne</li>
+					<li>$ = aller en fin de ligne</li>
+					<li>nbr+G = aller à la ligne nbr</li>
+				</ul>
+			</div>
+			<div class="commandes">
+
+				<div class="action-commandes">
+					<h3>Insérer</h3>
+				</div>
+
+				<ul>
+					<li>i = démarrer le mode insertion</li>
+					<li>I = démarrer insertion en début de ligne</li>
+					<li>A = démarrer insertion en fin de ligne</li>
+					<li>o = nouvelle ligne en dessous</li>
+					<li>O = nouvelle ligne au dessus</li>
+					<li>échap = quitter mode insertion</li>
+				</ul>
+			</div>
+
+			<div class="commandes">
+
+				<div class="action-commandes">
+					<h3>Editer</h3>
+				</div>
+
+				<ul>
+					<li>r = change une lettre</li>
+					<li>s = supprime la lettre au curseur</li>
+					<li>u = annule la dernière action</li>
+				</ul>
+			</div>
+
+		<h2>Pour aller plus loin travailler un peu en visuel</h2>
+
+			<div class="commandes">
+
+				<div class="action-commandes">
+					<h3>Mode visuel</h3>
+				</div>
+
+				<ul>
+					<li>v = démarrage mode visuel (sélection)</li>
+					<li>y = copie la selection</li>
+					<li>d = supprime la sélection</li>
+					<li>échap = quitter le mode visuel</li>
+
+				</ul>
+			</div>
+			<div class="commandes">
+
+				<div class="action-commandes">
+					<h3>Copier/coller</h3>
+				</div>
+
+				<ul>
+					<li>yy = copie une ligne</li>
+					<li>2yy = copie deux lignes</li>
+					<li>yw = copie un mot</li>
+					<li>dd = supprime une ligne</li>
+					<li>p = colle</li>
+					<li>x = coupe la lettre</li>
+				</ul>
+			</div>
+
+		<h2>Manipulations diverses</h2>
+
+			<div class="commandes">
+
+				<div class="action-commandes">
+					<h3>Chercher/remplacer</h3>
+				</div>
+
+				<ul>
+					<li>/mot = recherche le mot</li>
+					<li>?mot = cherche en arrière</li>
+					<li>N = fait la recherche dans la direction opposée</li>
+					<li>:%s/ancien/nouveau/g = remplace ancien par nouveau dans le fichier</li>
+				</ul>
+			</div>
+
+			<div class="commandes">
+
+				<div class="action-commandes">
+					<h3>Sortir</h3>
+				</div>
+
+				<ul>
+					<li>:w = sauvegarder</li>
+					<li>:wq = sauvegarder et quitter</li>
+					<li>:q = quitter</li>
+					<li>:q! = quitter sans changements pris en compte</li>
+				</ul>
+			</div>
+
+<!--New paragraph -->
+		<h2>Le fichier de personnalisation</h2>
+
+		<p>La force de Vim c'est aussi d'être hautement personnalisable, pour personaliser Vim il faut simplement créer un fichier .vimrc vous pourrez ensuite y ajouter quelques lignes de personalisation :</p>
+
+		<ul>
+			<li>set number = affiche les numéros de lignes</li>
+			<li>set mousse a = active la souris</li>
+			<li>syntax on = prise en charge de la coloration syntaxique</li>
+			<li>set smartindent = indentation intelligente</li>
+			<li>set autoindent = indentation automatique</li>
+		</ul>
+
+		<h3 id="ancrebas">Sources</h3>
+
+		<p>Merci aux personnes qui par leur travail m'ont permis de réaliser cette page, vous pouvez retrouver leurs sites en cliquant sur les liens suivants : <a href="http://www.worldtimzone.com/res/vi.html" target="_blank">My Vi/vim cheatsheet</a> et <a href="https://www.guillaume-leduc.fr/personnalisation-vim-les-bases.html" target="_blank">Le blog de Guillaume Leduc</a>.
+	</section>
+
+<!--Start footer: photo and text-->
+	<footer>
+		<div id="photofooter">
+
+			<img src="profil.jpg" alt="auteur de la feuille">
+
+		</div>
+
+		<div id="textfooter">
+
+			<p> Réalisation : Thomas Gossart, n'hésitez pas à partager cette fiche <br />
+			<a href="tg.59290@gmail.com">Me contacter</a></p>
+			<p>Un projet pour l'école<a href="http://simplon.co/roubaix/" target="_blank"> Simplon Roubaix</a></p>
+		<div/>
+	</footer>
+</body>
+
+</html>
