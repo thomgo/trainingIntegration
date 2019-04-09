@@ -1,0 +1,59 @@
+/**************************
+
+~~~~~~~~~~~General adjustements~~~~~~~~~~~~~
+
+ *******************************/
+
+body {
+	background-color: #fcfdfd;
+}
+
+/**Transparent header with image**/
+.jumbotron {
+	border-bottom: 1em solid #06246f;
+	background: linear-gradient(#0275d8, transparent 99%), #0275d8 url('../img/background.jpg');
+	background-size: cover;
+}
+
+/**Cards shadow**/
+.card {
+	box-shadow: 3px 3px 10px black;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+.card-header h3 {
+	font-size: 24px;
+}
+
+
+/******************************
+
+~~~~~~~~~~Fonts adjustements on bigger devices~~~~~~~~~~~~~~~~
+
+*******************************/
+
+/**Small devices**/
+@media (min-width: 544px) {
+	h2 {
+		font-size: 30px;
+	}
+}
+
+/**Medium devices**/
+@media (min-width: 768px) {
+
+	.jumbotron h1 {
+		font-size: 46px;
+	}
+}
+
+/**Large devices**/
+@media (min-width: 1200px) {
+
+	.jumbotron h1 {
+		font-size: 54px;
+	}
+}
