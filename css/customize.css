@@ -1,0 +1,114 @@
+/**
+
+~~~~~~~~~~General adjustments~~~~~~~~~~~~~
+
+**/
+
+/**Header styling**/
+.top-bar {
+  background-color: #3adb76;
+}
+
+.top-bar h1 {
+  margin-top: .5em;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: white;
+}
+
+/**Nav and section styling**/
+nav, section {
+  background-color: white;
+}
+
+section {
+  margin-top: 1em;
+  position: relative;
+}
+
+/*Je n'ai pas réussi à faire fonctionner le sticky de foundation pour le boutton*/
+section .button {
+  position: fixed;
+  bottom: 0;
+  left: 30%;
+}
+
+/**Content styling**/
+h2 {
+  font-family: 'Katibeh', cursive;
+  font-size: 1.5em;
+}
+
+table {
+  margin-top: 2em;
+}
+
+table span {
+  font-size: 1.5em;
+}
+
+/**Footer styling**/
+footer {
+  background-color: #cefbad;
+  height: 5em;
+}
+
+/**
+
+~~~~~~~~~~Responsive design~~~~~~~~~~~~~
+
+**/
+
+/**Medium devices**/
+@media only screen and (min-width: 40.063em) {
+
+  body {
+    background-image: url(../img/background.jpg);
+  }
+
+  .top-bar {
+    background-color: rgba(58, 219, 118, 0.8);
+    margin: 2em 0;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  section .button {
+    left: 40%;
+  }
+
+  footer {
+    margin-top: 2em;;
+  }
+
+}
+
+/**Large devices**/
+@media only screen and (min-width: 64.063em) {
+
+  nav {
+    margin-top: 1em;
+    background-color: rgba(58, 219, 118, 0.9);
+    height: 300px;
+    border-bottom: 4px solid black
+  }
+
+  nav a {
+    color: white;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  footer {
+    height: 4em;
+    font-size: 1.25em;
+    padding-top: 1em;
+  }
+
+}

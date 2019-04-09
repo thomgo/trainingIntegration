@@ -1,0 +1,345 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Cheat sheet emmet</title>
+        <meta name="description" content="Tout savoir sur emmet et les principales commandes qui vous permettront d'écrire vos lignes de code
+        plus vite que jamais !">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="icon" type="image/ico" href="favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/customize.css">
+        <link href="https://fonts.googleapis.com/css?family=Katibeh%7cLora" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://use.fontawesome.com/0f4e864337.js"></script>
+    </head>
+
+    <body>
+
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<!--
+~~~~~~~~~~~~Start Header~~~~~~~~~~~
+-->
+
+    <!--Wrap the header-->
+    <div class="row">
+
+      <header class="top-bar">
+        <div class="row">
+            <div class="small-0 medium-2 columns">
+                <img src="img/logo.png" alt="logo emmet" class="show-for-medium" />
+            </div>
+            <div class="small-12 medium-10 columns">
+            <h1 class="text-center" id="ancre">Cheat sheet Emmet</h1>
+          </div>
+        </div>
+      </header>
+
+    </div>
+    <!-- End wrap-->
+
+<!--
+~~~~~~~~~~~~End Header~~~~~~~~~~~
+-->
+
+
+<!--
+~~~~~~~~~~~~Main content~~~~~~~~~~~
+ -->
+
+<!--Start wrapped navigation-->
+<div class="row">
+
+   <!--Navigation bar-->
+  <nav class="small-12 large-2 columns">
+     <ul class="horizontal large-vertical menu text-center">
+       <li><a href="http://emmet.io/" target="_blank">Site officiel</a></li>
+       <li><a href="http://docs.emmet.io/cheat-sheet/" target="_blank">Source</a></li>
+     </ul>
+  </nav>
+<!--End navigation-->
+
+
+<!--Start main section-->
+   <section class="small-12 large-10 columns">
+
+<!--Top text content-->
+    <a href="#ancre" class="success button hide-for-large">Retour en haut</a>
+    <h2 class="text-center">Les principaux raccourcis</h2>
+    <p>Emmet est un outil de développement web qui vous fera gagner beaucoup de temps ! En quelques caractères seulement, vous pourrez écrire plusieurs dizaines
+    de lignes de code, bref un véritable atout dans votre travail quotidien. Encore faut-il connaître les principaux raccourcis,
+    voici ceux qui me semblent fondamentaux</p>
+
+<!--Tables-->
+     <div class="row">
+
+       <!--Table 1-->
+       <div class="small-12 medium-6 large-4 columns">
+         <table>
+            <thead>
+              <tr>
+                <th colspan="2">
+                  <span class="float-left">Syntaxe</span>
+                  <i class="fa fa-sign-in fa-2x float-right" aria-hidden="true"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>nav>ul>li</td>
+                <td>création des éléments enfants</td>
+              </tr>
+              <tr>
+                <td>div+p+bq</td>
+                <td>crée des éléments parents</td>
+              </tr>
+              <tr>
+                <td>div+div>p>span+em^^bq</td>
+                <td>insère le blockquote après la div</td>
+              </tr>
+              <tr>
+                <td>(div>dl>(dt+dd)*3)+footer>p</td>
+                <td>groupement pour calcul</td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+
+       <!--Table 2-->
+       <div class="small-12 medium-6 large-4 columns">
+         <table>
+            <thead>
+              <tr>
+                <th colspan="2">
+                  <span class="float-left">Numération</span>
+                  <i class="fa fa-sort-numeric-asc fa-2x float-right" aria-hidden="true"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ul>li*5</td>
+                <td>multiplication de l'élément li</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$*5</td>
+                <td>numération d'une classe item de 1 à 5</td>
+              </tr>
+              <tr>
+                <td>h$[title=item$]{Header $}*3</td>
+                <td>titre de h1 à h3 avec titre de 1 à 3</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$$$*5</td>
+                <td>numérotation classe item de 001 à 005</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$@-*5</td>
+                <td>numérotation décroissante</td>
+              </tr>
+              <tr>
+                <td>ul>li.item$@3*5</td>
+                <td>numérotation à partir de 3</td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+
+       <!--Table 3-->
+       <div class="small-12 medium-6 large-4 columns float-left">
+         <table>
+            <thead>
+              <tr>
+                <th colspan="2">
+                  <span class="float-left">Tags et attributs</span>
+                  <i class="fa fa-tags fa-2x float-right" aria-hidden="true"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#header</td>
+                <td>div id header</td>
+              </tr>
+              <tr>
+                <td>.title</td>
+                <td>div classe title</td>
+              </tr>
+              <tr>
+                <td>p.class1.class2.class3</td>
+                <td>paragraphe avec 3 classes</td>
+              </tr>
+              <tr>
+                <td>.class</td>
+                <td>div avec classe</td>
+              </tr>
+              <tr>
+                <td>ul>.class</td>
+                <td>liste avec classe sur li</td>
+              </tr>
+              <tr>
+                <td>a{Click me}</td>
+                <td>lien avec texte</td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+
+     </div>
+     <div class="row">
+
+       <!--table 4-->
+       <div class="small-12 medium-6 large-4 columns">
+         <table>
+            <thead>
+              <tr>
+                <th colspan="2">
+                  <span class="float-left">Raccourcis html</span>
+                  <i class="fa fa-html5 fa-2x float-right" aria-hidden="true"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>a:link</td>
+                <td>lien complet</td>
+              </tr>
+              <tr>
+                <td>a:mail</td>
+                <td>lien vers mail</td>
+              </tr>
+              <tr>
+                <td>img</td>
+                <td>balise image complète</td>
+              </tr>
+              <tr>
+                <td>sect</td>
+                <td>balise section</td>
+              </tr>
+              <tr>
+                <td>hdr/nav/fig</td>
+                <td>balises structurantes</td>
+              </tr>
+              <tr>
+                <td>btn</td>
+                <td>button</td>
+              </tr>
+              <tr>
+                <td>ul+ / table+</td>
+                <td>liste ou table</td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+
+       <!--Table 5-->
+       <div class="small-12 medium-6 large-4 columns float-left">
+         <table>
+            <thead>
+              <tr>
+                <th colspan="2">
+                  <span class="float-left">Raccourcis css</span>
+                  <i class="fa fa-css3 fa-2x float-right" aria-hidden="true"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>pos / pos : s a r f</td>
+                <td>différents positionnements</td>
+              </tr>
+              <tr>
+                <td> t/r/b/l : a</td>
+                <td>top, right, bottom, left : auto</td>
+              </tr>
+              <tr>
+                <td>fl : r/l</td>
+                <td>float left/right</td>
+              </tr>
+              <tr>
+                <td>m / m : a </td>
+                <td>margin / margin auto</td>
+              </tr>
+              <tr>
+                <td>mt/mr/mb/ml</td>
+                <td>différentes margin</td>
+              </tr>
+              <tr>
+                <td>pt/pr/pb/pl</td>
+                <td>différents paddings</td>
+              </tr>
+              <tr>
+                <td>f</td>
+                <td>font : </td>
+              </tr>
+              <tr>
+                <td>bd+</td>
+                <td>border : 1px solid #000</td>
+              </tr>
+              <tr>
+                <td>bg+</td>
+                <td>background : #fff url () 0 0 no-repeat</td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+
+     </div>
+     <!--End of the tables-->
+
+  </section>
+  <!--End of the main section-->
+
+</div>
+<!--End of the general row-->
+
+<!--
+
+~~~~~~~~~End of the main content~~~~~~~~~~~~~
+
+-->
+
+<!--
+
+~~~~~~~~~Start of the footer~~~~~~~~~~~~~
+
+-->
+
+<div class="row">
+  <footer class="footer">
+    <p class="text-center">Une réalisation <a href="mailto:tg.59290@gmail.com">Thomas Gossart</a></p>
+  </footer>
+</div>
+
+<!--
+
+~~~~~~~~~End of the footer~~~~~~~~~~~~~
+
+-->
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
