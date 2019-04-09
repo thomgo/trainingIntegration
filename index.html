@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css"/>
+<title>L'essentiel de GIT</title>
+
+</head>
+
+<body>
+
+<!--div allows the page to be smaller than the screen-->
+<div id="contain">
+
+
+<!--Start of the header-->
+<header>
+
+	<div id="imgheader"><img src="Git-Logo.png" alt="logo git" /></div>
+
+	<h1>Cheat sheet sur Git</h1>
+
+</header>
+
+<!--Start of the content with the menu -->
+<section>
+
+
+	<nav>
+
+		<ul>
+			<li><a href="https://git-scm.com/">Site officiel Git</a></li>
+			<li><a href="https://doc.ubuntu-fr.org/git">Doc Ubuntu</a></li>
+			<li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">Plus d'infos</a></li>
+		</ul>
+	</nav>
+
+
+		<div id="content">
+
+
+	<p>Git est un outil de versioning puissant qui permet d'être sûr de ne jamais perdre ses travaux, plutôt une bonne chose non ? Il permet même de travailler sur des projets tests avant de les fusionner avec le projet final. Informations sur l'auteur, les modifications, création de branches... Git est presque sans limites pour peu que l'on connaisse ses commandes ! Voilà donc un petit récapitulatif des plus importantes pour travailler correctement. </p>
+
+<!--The most important content (the shortcuts) are organized in a table -->
+	<table>
+		<caption>Les commandes de Git</caption>
+
+		<thead>
+			<tr>
+				<th>Commande</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+
+		<tfoot>
+			<tr>
+				<th>Commande</th>
+				<th>Action</th>
+			</tr>
+
+		</tfoot>
+
+		<tbody>
+			<tr>
+				<td>git init</td>
+				<td>Ammorce le versioning dans le dossier</td>
+			</tr>
+			<tr>
+				<td>git status</td>
+				<td>Affiche les fichiers modifiés</td>
+			</tr>
+			<tr>
+				<td>git add</td>
+				<td>Ajoute les changements au prochain commit</td>
+			</tr>
+			<tr>
+				<td>git commit</td>
+				<td>Crée le commit</td>
+			</tr>
+			<tr>
+				<td>git commit -m "votre message"</td>
+				<td>Crée le commit avec un message d'information sur sa nature</td>
+			</tr>
+			<tr>
+				<td>git diff</td>
+				<td>Affiche les changements commités</td>
+			</tr>
+			<tr>
+				<td>git push origin master</td>
+				<td>Envoie le contenu de la branche master sur Github</td>
+			</tr>
+			<tr>
+				<td>git pull origin master</td>
+				<td>Récupère le contenu de la branche master sur Github</td>
+			</tr>
+			<tr>
+				<td>git branch votrebranche</td>
+				<td>Crée une branche</td>
+			</tr>
+			<tr>
+				<td>git branch -av</td>
+				<td>Liste les branches existantes</td>
+			</tr>
+			<tr>
+				<td>git checkout votrebranche</td>
+				<td>Change de branche</td>
+			</tr>
+			<tr>
+				<td>git merge votrebranche</td>
+				<td>Fusionne la branche choisie avec la branche actuelle</td>
+			</tr>
+			<tr>
+				<td>git reset commit</td>
+				<td>Restaure un commit sans effacer les changements des commits suivants</td>
+			</tr>
+			<tr>
+				<td>git blame fichier</td>
+				<td>Montre les changements et leurs auteurs</td>
+			</tr>
+			<tr>
+				<td>git remote -v</td>
+				<td>Affiche la liste des dépôts configurés</td>
+			</tr>
+	</tbody>
+
+	</table>
+
+		<p>Pour pourvoir envoyer ses fichiers sur son dépot Github, il faut tout d'abord se connecter à l'aide d'une clef SSH, ce petit <a href="http://www.git-attitude.fr/2010/09/13/comprendre-et-maitriser-les-cles-ssh/">tutoriel</a> vous indiquera la marche à suivre. Ensuite une fois la connection établie, il suffit de créer un nouveau dépot dans Github. Au moment de la création, les informations sur les modalités de connexion et notamment les commandes à rentrer dans la console vous seront indiquées. Voir deuxième section: git remote et git push -u origin master. </p>
+
+	</div>	
+
+</section>
+
+<!--Start the footer with the crédits -->
+<footer>
+
+	<p> Une réalisation de Thomas Gossart pour<a href="http://simplon.co/roubaix/" target="_blank"> Simplon roubaix</a>. Vous pouvez réutiliser cette fiche comme bon vous semble ! N'hésitez pas à la partager ;-)</p>
+
+</footer>
+
+<!-- End of the contain div and then body-->
+</div>
+
+</body>
+
+</html>
