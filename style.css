@@ -1,0 +1,121 @@
+/*start body and set the linux logo position*/
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#pingouin {
+	width: 25%;
+	height: 50%;
+	position: fixed;
+	bottom: 0;
+}
+
+#pingouin img {
+	width: 100%;
+	height: 100%;
+}
+
+/*start the menu with a box hover effect*/
+nav {
+	width: 100%;
+	height: 100px;
+	background-color: #ff7a73;
+	padding-top: 15px;
+}
+
+nav li {
+	width: 20%;
+	height: 50px;
+	display: inline;
+	font-size: 2em;
+	font-family: 'Arima Madurai', cursive;
+	margin-left: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav li:hover {
+	background-color: #c80101;
+	border: 1px solid #c80101;
+	border-radius: 10px;
+	font-size: 2.5em;
+}
+
+/*start the content's contain*/
+section {
+	width: 70%;
+	margin: auto;
+	margin-top: 4%;
+	background-color: #f8f9f9;
+}
+
+section h1 {
+	text-align: center;
+	margin-bottom: 3%;
+	font-family: 'El messiri', sans-serif;
+	font-size: 2em;
+	color:#006363;
+}
+
+/*design the main table with the shortcuts*/
+table {
+	margin: auto;
+	font-size: 1.50em;
+	font-family: 'Roboto', sans-serif;
+	border: 5px solid #ff7a73;
+}
+
+td {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	padding-left: 3%;
+	background-color: #cef0ec;
+}
+
+.section {
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #006363;
+	font-family: 'El messiri', sans-serif;
+	color: white;
+	font-style: italic;
+}
+
+/*allows the design to be responsive on mobile devices*/
+@media screen and (max-width: 900px)
+{
+
+	nav {
+	height: 30%;
+	}
+
+	nav li {
+	width: 100%;
+	display: block;
+	font-size: 2em;
+	}	
+
+	#pingouin {
+	display: none;
+	}
+	
+	section {
+	width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) 
+{
+	#pingouin {
+	display: none;
+	}
+
+}
