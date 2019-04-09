@@ -1,0 +1,260 @@
+/**************************************
+
+	-----General settings -----
+
+*************************************/
+
+/*Body*/
+
+body {
+	background-color: white;
+	margin: 0;
+}
+
+/*Lists and links*/
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+/**************************************
+
+	-----Header -----
+
+*************************************/
+
+header {
+	width: 100%;
+	height: 100%;
+}
+
+/*Navigation bar and display in the header */
+
+nav {
+	width: 90%;
+	margin: auto;
+}
+
+nav li {
+	padding: 0 1.5%;
+}
+
+nav a {
+	color: black;
+	opacity: 0.7;
+	font-size: 0.80em;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/*Specific settings and effects on images */
+
+#carre {
+	height: 24px;
+	width: 24px;
+	opacity: 0.6;
+	padding-top: 0.5%;
+}
+
+#carre:hover {
+	opacity: 1;
+}
+
+#bell {
+	height: 24px;
+	width: 24px;
+	opacity: 0.6
+}
+
+#bell:hover {
+	opacity: 1;
+}
+
+/**************************************
+
+	-----Content section -----
+
+*************************************/
+
+/*Section with content global settings */
+
+section {
+	width: 90%;
+	height: 40%;
+	margin: 10% 5%;
+}
+
+/*Logo display */
+
+#logo {
+	margin: auto;
+}
+
+/*Search bar display and effects */
+
+form input {
+	width: 100%;
+	height: 2.5em;
+	border: 1px solid #f2f2f2;
+	border-radius: 0px;
+}
+
+form input:hover {
+	border-color: #d9d9d9;
+}
+
+form input:focus {
+	border-color: #4285fa;;
+}
+
+/*Buttons display and effects */
+
+#buttons {
+	text-align: center;
+	padding-right: 7%;
+}
+
+#buttons li {
+	width: 60%;
+	height: 25px;
+	background-color: #f2f2f2;
+	margin: 3% 1%;
+	padding-top: 2%;
+	text-align: center;
+	color: #767676;
+	font-weight: bold;
+	font-size: 0.80em;
+
+}
+
+#buttons li:hover {
+	border: 1px solid #d9d9d9;
+	color: black;
+}
+
+#buttons a {
+	}
+
+/**************************************
+
+	-----Footer -----
+
+*************************************/
+
+/*Footer global settins and effects */
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+}
+
+footer a {
+	color: #666;
+	font-size: 0.8em;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer li {
+	margin: 0 2%;
+}
+
+/*Lists layout */
+
+.divers {
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5%;
+}
+
+/**************************************
+
+	-----Responsive design -----
+
+*************************************/
+
+/*Responsive design on tablets */
+
+@media screen and (min-width: 768px) {
+
+	nav {
+		width: 300px;
+		float: right;
+	}
+	
+	section {
+		width: 80%;
+		height: 40%;
+		clear: both;
+		margin: 10%;
+	}
+	
+	#logo {
+		padding: 5% 23% 3% 27%;
+	}
+
+	#buttons li {
+		width: 30%;
+	}
+
+	.divers {
+		width: 45%;
+		margin-left: 0;
+	}
+
+	#gauche {
+		float: left
+	}
+
+	#droit {
+		float: right;
+	}
+
+}
+
+/*Responsive design on tablets on notebooks */
+
+@media screen and (min-width: 980px) {
+	
+	#logo {
+		padding: 5% 18% 3% 32%;
+	}
+}
+
+/*Responsive design on laptops and desktop pc*/
+
+@media screen and (min-width: 1280px) {
+
+	section {
+		width: 40%;
+		margin: 10% 30%;
+	}
+	
+	#logo {
+		padding: 5% 23% 3% 27%;
+	}
+
+	.divers {
+		width: 30%;
+	}
+
+
+}
